@@ -3,6 +3,7 @@
     --notesOrange: orange;
     --interactiveMinHeight: 700px;
     --actionGreen: #6fc284;
+    --skyBlue: #dbf1f9;
 }
 
 .container{
@@ -27,7 +28,7 @@
 .left{
     width: 20%;
     min-height:  var(--interactiveMinHeight);
-    background-color: #dbf1f9;
+    background-color: var(--skyBlue);
     display: flex;
     flex-flow: column wrap;
     margin-right: 10px;
@@ -41,11 +42,21 @@
     width:100%;
     margin-top:10px;
 }
+
 #btnStartOver, #btnBack{
     border: 2px solid var(--mainBlue);
     border-radius: 2px;
     padding:3px;
     color:var(--mainBlue);
+}
+
+#btnStartOver:hover, #btnBack:hover{
+    background-color: var(--mainBlue);
+    color: var(--skyBlue);
+}
+
+#btnBack{
+    margin-left: 10px;
 }
 
 .leftLines{
@@ -70,6 +81,7 @@
     display: flex;
     flex-flow: column wrap;
     min-height: var(--interactiveMinHeight);
+    max-width: 75%;
 }
 
 .action{
@@ -83,8 +95,12 @@
 .action p, .notes p{
     margin-left: 10px;
 }
-div.action > span, div.note > span{
+div.action > span, div.notes > span{
     font-weight: 700;
+}
+
+div.notes > span{
+    color: var(--notesOrange);
 }
 
 .action.green {
@@ -118,7 +134,7 @@ div.action > span, div.note > span{
     border-bottom: none;
 }
 .notes{
-    color: var(--notesOrange);
+    padding: 20px;
     min-height: 100px;
     border: 2px solid grey;
     margin-top:6px;
