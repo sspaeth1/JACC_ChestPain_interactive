@@ -30,20 +30,20 @@ let indexKey =
 
 
 createSlide = (row) => {
-    let setEventListnerAnswers = Array.from(document.getElementsByClassName('answerSelection')),
-        _row = 0,   
-        setStateID = data[_row].stateID,
-        stateIndex = data.indexOf(data[_row]),
+    let setEventListnerAnswers = Array.from(document.getElementsByClassName('answerSelection')),  
+        setStateID = data[row].stateID,
+        stateIndex = data.indexOf(data[row]),
         grabSelectionBlock = document.getElementById('selectionBlock'),
         createQuestion = document.createElement('div'),
-        answerArray = [data[_row].answer1, data[_row].answer2, data[_row].answer3, data[_row].answer4, data[_row].answer5, data[_row].answer6],
-        answerGoToRow = [data[_row].answer1_go_to, data[_row].answer2_go_to, data[_row].answer3_go_to, data[_row].answer4_go_to, data[_row].answer5_go_to, data[_row].answer6_go_to];
-        localStorage.setItem('index', _row);
+        answerArray = [data[row].answer1, data[row].answer2, data[row].answer3, data[row].answer4, data[row].answer5, data[row].answer6],
+        answerGoToRow = [data[row].answer1_go_to, data[row].answer2_go_to, data[row].answer3_go_to, data[row].answer4_go_to, data[row].answer5_go_to, data[row].answer6_go_to];
+        localStorage.setItem('index', row);
 
+        grabSelectionBlock.innerHTML = "";
         createQuestion.setAttribute('id', 'prompQuestion');
         grabSelectionBlock.appendChild(createQuestion);
         let selectQuestion = document.getElementById('prompQuestion');
-        selectQuestion.innerHTML = data[_row].question;
+        selectQuestion.innerHTML = data[row].question;
 
 
 
@@ -56,17 +56,12 @@ createSlide = (row) => {
                     newAnswer.setAttribute('class', 'answerSelection')
                     selectQuestion.parentElement.appendChild(newAnswer);
                     newAnswer.innerHTML = answerArray[i];
-                    _row = Object.values(Object.values(indexKey)[i])[0];
+                    row = Object.values(Object.values(indexKey)[i])[0];
                     newAnswer.addEventListener('click', ()=> {
                         grabSelectionBlock.innerHTML ="";
-                        createSlide(_row);
-                        alert('new slide');
-                    });
-                    console.log("answer: " , answerArray[i], '\n', 
-                                 "answer index go to ",  answerGoToRow[i], '\n',
-                                 "index from goTo:", Object.values(Object.values(indexKey)[i])[0] );     
-            }
-        }
+                        createSlide(row);
+                    });  }
+           }
         }
         addAnswerSections();
 }
@@ -74,6 +69,7 @@ createSlide = (row) => {
 //init
 createSlide(0)
 
+document.getElementById('btnStartOver').addEventListener('click', ()=> createSlide(0) );
 
  // console.log('******', indexKey.map( find =>{ if(answerGoToRow[0] == Object.keys(find)){return Object.values(find)[0] }}), '*******')
  console.log('******', Object.values(indexKey)[1], '*******')

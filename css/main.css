@@ -41,7 +41,7 @@
     width:100%;
     margin-top:10px;
 }
-.btnStartOver, .btnBack{
+#btnStartOver, #btnBack{
     border: 2px solid var(--mainBlue);
     border-radius: 2px;
     padding:3px;
