@@ -33,6 +33,7 @@
     flex-flow: column wrap;
     margin-right: 10px;
     padding:5px;
+    align-items:center;
 }
 
 .left
@@ -59,22 +60,23 @@
     margin-left: 10px;
 }
 
-.leftLines{
-    border-width: 2px 2px 0px 2px;
+#leftLines{
+    border-width: 3px 3px 0px 3px;
     border-color: var(--mainBlue);
-    width: 82%;
+    width: 60%;
     height: 80%;
-    min-width: 80%;
-    margin-top: 20px;
+    margin-top: 5px;
     display: flex;
     flex-flow: column;
     border-style: solid;
 }
 
-.container.left span{
+div.left span{
     color: var(--mainBlue);
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 700;
+    margin-bottom:0;
+    margin-top:5px;
 }
 .right{
     min-width: 50%;
@@ -138,4 +140,13 @@ div.notes > span{
     min-height: 100px;
     border: 2px solid grey;
     margin-top:6px;
+}
+
+p.treeleft {
+    left: 1%;
+    position: absolute;
+    background: var(--skyBlue);
+    padding: 10px;
+    font-weight: bold;
+    color: var(--mainBlue);
 }

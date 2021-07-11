@@ -21,6 +21,7 @@ let createSlide = (row) => {
         grabSelectionBlock = document.getElementById('selectionBlock'),
         grabActionBlock = document.getElementById('actionBlock'),
         grabNotesBlock = document.getElementById('notesBlock'),
+        grabTree = document.getElementById('leftLines'),
         history = [],
         answerArray = [data[row].answer1, data[row].answer2, data[row].answer3, data[row].answer4, data[row].answer5, data[row].answer6],
         answerGoToRow = [data[row].answer1_go_to, data[row].answer2_go_to, data[row].answer3_go_to, data[row].answer4_go_to, data[row].answer5_go_to, data[row].answer6_go_to];
@@ -90,6 +91,39 @@ let createSlide = (row) => {
 
 
         addNotes();
+
+
+        let createMilestoneTree = () =>{
+
+            if(data[row].acute){
+                let acute = document.createElement('p');
+                acute.setAttribute('class', 'treeleft');
+                acute.innerHTML = "Acute";
+                grabTree.appendChild(acute);
+
+                if(data[row].history_pe){
+                    let history_pe = document.createElement('p');
+                    history_pe.setAttribute('class', 'treeleft');
+                    history_pe.innerHTML = "History" , '/n', 'PE';
+                    grabTree.appendChild(history_pe);
+                    if(data[row].ecg){
+
+                    }
+                }
+            }
+
+    // "hs_ctn": "",
+    // "high_risk_level": "",
+    // "int_risk_level": "",
+    // "low_risk_level": "",
+    // "known_cad": "",
+    // "obstructive": "",
+    // "nonobstructive": "",
+    // "octa_obstructive_cad": "",
+    // "octa_no_change": "",
+    // "end": ""
+        }
+        createMilestoneTree();
 }
 
 
