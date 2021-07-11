@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JACC Chest Pain Interactive</title>
-</head>
-<body>
-
-<style >
-
 :root{
     --mainBlue: #232f74;
     --notesOrange: orange;
@@ -102,12 +90,12 @@ div.action > span, div.note > span{
 .action.green {
     background-color: var(--actionGreen);
 }
-.selectionBlock{
+#selectionBlock{
     min-height: 200px;
     border: 2px solid grey;
     padding:0;
 }
-.prompQuestion{
+#prompQuestion{
     background-color: var(--mainBlue);
     color: #fff;
     min-height: 50px;
@@ -121,6 +109,11 @@ div.action > span, div.note > span{
     border-bottom: 2px solid grey;
     padding: 20px;
 }
+
+.answerSelection:hover{
+    background-color: rgb(216, 216, 216);
+}
+
 .answerSelection:last-child{
     border-bottom: none;
 }
@@ -130,52 +123,3 @@ div.action > span, div.note > span{
     border: 2px solid grey;
     margin-top:6px;
 }
-pw
-</style>
-    
-    <div class="container">
-        <div class="left">
-            <span>Chest Pain</span>
-            <div class="leftLines">
-
-            </div>
-            <div class="btns">
-                <div class="btnBack">
-                    Back
-                </div>
-                <div class="btnStartOver">
-                    Start Over
-                </div>
-            </div>
-        </div>
-        <div class="right">
-            <div class="action green">
-                <span>Action:</span>
-                <p>First Action Note</p>
-            </div>
-            <div class="selectionBlock">
-                <div class="prompQuestion">
-                    Question 1
-                </div>
-                <div class="answerSelection">
-                    Answer 1
-                </div>
-                <div class="answerSelection">
-                    Answer 2
-                </div>
-                <div class="answerSelection">
-                    Answer 3
-                </div>
-            </div>
-            <div class="note">
-                <span>Note:</span>
-                <p>
-                first Sample note
-                </p>
-            </div>
-        </div>
-
-    </div>
-    
-</body>
-</html>

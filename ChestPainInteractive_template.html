@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JACC Chest Pain Interactive</title>
+</head>
+<body>
+
+<style >
+
+:root{
+    --mainBlue: #232f74;
+    --notesOrange: orange;
+    --interactiveMinHeight: 700px;
+    --actionGreen: #6fc284;
+}
+
+.container{
+    min-width: 50%;
+    max-height: 800px;  
+    min-height: var(--interactiveMinHeight);
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    display: flex; 
+    flex-flow: row wrap;
+    flex-direction: row;
+}
+.container > h1{
+    color: var(--mainBlue);
+    font-size: 30px;
+}
+
+.container > h2{
+    color:var(--mainBlue);
+    font-size: 20px;
+}
+
+.left{
+    width: 20%;
+    min-height:  var(--interactiveMinHeight);
+    background-color: #dbf1f9;
+    display: flex;
+    flex-flow: column wrap;
+    margin-right: 10px;
+    padding:5px;
+}
+
+.left
+.btns{
+    display: flex;
+    flex-flow: row nowrap;
+    width:100%;
+    margin-top:10px;
+}
+.btnStartOver, .btnBack{
+    border: 2px solid var(--mainBlue);
+    border-radius: 2px;
+    padding:3px;
+    color:var(--mainBlue);
+}
+
+.leftLines{
+    border-width: 2px 2px 0px 2px;
+    border-color: var(--mainBlue);
+    width: 82%;
+    height: 80%;
+    min-width: 80%;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+    border-style: solid;
+}
+
+.container.left span{
+    color: var(--mainBlue);
+    font-size: 12px;
+    font-weight: 700;
+}
+.right{
+    min-width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    min-height: var(--interactiveMinHeight);
+}
+
+.action{
+    border: 2px solid gray;
+    min-height: 50px;
+    margin-bottom: 6px;
+    padding: 20px;
+    border: solid 2px  var(--mainBlue);
+
+}
+.action p, .notes p{
+    margin-left: 10px;
+}
+div.action > span, div.note > span{
+    font-weight: 700;
+}
+
+.action.green {
+    background-color: var(--actionGreen);
+}
+.selectionBlock{
+    min-height: 200px;
+    border: 2px solid grey;
+    padding:0;
+}
+.prompQuestion{
+    background-color: var(--mainBlue);
+    color: #fff;
+    min-height: 50px;
+    border-bottom: 2px solid grey;
+    padding: 20px;
+}
+.answerSelection{
+    background-color: #fff;
+    color: rgb(98, 98, 98);
+    min-height: 50px;
+    border-bottom: 2px solid grey;
+    padding: 20px;
+}
+.answerSelection:last-child{
+    border-bottom: none;
+}
+.notes{
+    color: var(--notesOrange);
+    min-height: 100px;
+    border: 2px solid grey;
+    margin-top:6px;
+}
+
+</style>
+    
+    <div class="container">
+        <div class="left">
+            <span>Chest Pain</span>
+            <div class="leftLines">
+
+            </div>
+            <div class="btns">
+                <div class="btnBack">
+                    Back
+                </div>
+                <div class="btnStartOver">
+                    Start Over
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="action green">
+                <span>Action:</span>
+                <p>First Action Note</p>
+            </div>
+            <div class="selectionBlock">
+                <div class="prompQuestion">
+                    Question 1
+                </div>
+                <div class="answerSelection">
+                    Answer 1
+                </div>
+                <div class="answerSelection">
+                    Answer 2
+                </div>
+                <div class="answerSelection">
+                    Answer 3
+                </div>
+            </div>
+            <div class="note">
+                <span>Note:</span>
+                <p>
+                first Sample note
+                </p>
+            </div>
+        </div>
+
+    </div>
+    
+    <div>
+    </div>
+
+</body>
+</html>
