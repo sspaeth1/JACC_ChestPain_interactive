@@ -1,19 +1,43 @@
 :root{
-    --mainBlue: #232f74;
-    --notesOrange: orange;
+    --mainBlue: #18305a;
+    --notesOrange: #faa84b;
     --interactiveMinHeight: 700px;
     --actionGreen: #6fc284;
     --skyBlue: #dbf1f9;
+    --yellow: #ffd54f;
+    --pink: #f15e4c;
+    --red: #ed2027;
+    --actionBlue: #a2c1e6;
+    --endBlue: #29487a;
+} 
+    
+body{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
 }
+
+.titleHead{
+    color: var(--mainBlue)
+}
+
+.titleHead h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.titleHead h2{
+    margin-top: 0px;
+}
+
 
 .container{
     min-width: 50%;
-    max-height: 800px;  
+    max-height: 800px;
+    max-width: 70%;
     min-height: var(--interactiveMinHeight);
-    font-family: Calibri, Arial, Helvetica, sans-serif;
-    display: flex; 
-    flex-flow: row wrap;
-    flex-direction: row;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 0 12%;
 }
 .container > h1{
     color: var(--mainBlue);
@@ -25,8 +49,18 @@
     font-size: 20px;
 }
 
+.interactive{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;  
+    width: 100%;
+}
+
 .left{
-    width: 20%;
+    width: 25%;   
+}
+
+.milestoneTree{
     min-height:  var(--interactiveMinHeight);
     background-color: var(--skyBlue);
     display: flex;
@@ -44,11 +78,23 @@
     margin-top:10px;
 }
 
+.leftLine {
+    position: absolute;
+    left: 13%;
+    text-align: center;
+    max-width: 10%;
+    top: 20%;
+}
+
 #btnStartOver, #btnBack{
     border: 2px solid var(--mainBlue);
     border-radius: 2px;
     padding:3px;
     color:var(--mainBlue);
+    width: 42%;
+    display: flex;
+    justify-content: center;
+    padding: 4% 0;
 }
 
 #btnStartOver:hover, #btnBack:hover{
@@ -60,7 +106,7 @@
     margin-left: 10px;
 }
 
-#leftLines{
+#milestoneLines{
     border-width: 3px 3px 0px 3px;
     border-color: var(--mainBlue);
     width: 60%;
@@ -69,9 +115,10 @@
     display: flex;
     flex-flow: column;
     border-style: solid;
+    min-height: 630px;
 }
 
-div.left span{
+div.milestoneTree span{
     color: var(--mainBlue);
     font-size: 20px;
     font-weight: 700;
@@ -79,11 +126,11 @@ div.left span{
     margin-top:5px;
 }
 .right{
-    min-width: 50%;
+    min-width: 73%;
     display: flex;
     flex-flow: column wrap;
     min-height: var(--interactiveMinHeight);
-    max-width: 75%;
+    max-width: 73%;
 }
 
 .action{
@@ -142,11 +189,71 @@ div.notes > span{
     margin-top:6px;
 }
 
-p.treeleft {
-    left: 1%;
-    position: absolute;
+
+
+p.treeRight {
+    right: 1%;
+    position: relative;
     background: var(--skyBlue);
     padding: 10px;
     font-weight: bold;
     color: var(--mainBlue);
+    border: 3px solid var(--mainBlue);
+    border-radius: 4px;
+}
+p.treeRight.item:last-child{
+    border: 1px solid var(--mainBlue);
+}
+
+.end {
+    background-color: var(--mainBlue);
+    border: 1px solid var(--mainBlue);
+    border-radius: 5px;
+    padding: 10px;
+    color:  #fff;
+    min-width: 78px;
+}
+p.treeLeft {
+    left: 1%;
+    position: relative;
+    background: var(--skyBlue);
+    padding: 10px;
+    font-weight: bold;
+    color: var(--mainBlue);
+    border: 3px solid var(--mainBlue);
+    border-radius: 4px;
+}
+p.treeLeft.item:last-child{
+    border: 1px solid var(--mainBlue);
+}
+
+.severity{
+    width:100%;
+    margin-top: 5px;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.severity span.degree {
+    width: 19%;
+    padding: .5%;
+    display: flex;
+    justify-content: center;
+}
+
+.green{
+    background-color: var(--actionGreen);
+}
+.yellow{
+    background-color: var(--yellow);
+}
+.orange{
+    background-color: var(--notesOrange);
+}
+.pink{
+    background-color: var(--pink);
+}
+.red{
+    background-color: var(--red);
 }
