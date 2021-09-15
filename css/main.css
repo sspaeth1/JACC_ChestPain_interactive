@@ -38,7 +38,6 @@ body{
 .container{
     min-width: 50%;
     max-height: 800px;
-    max-width: 70%;
     min-height: var(--interactiveMinHeight);
     display: flex;
     flex-flow: column nowrap;
@@ -57,13 +56,13 @@ body{
 
 .interactive{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     flex-direction: row;  
     width: 100%;
 }
 
 .left{
-    width: 25%;   
+    min-width: 300px;   
 }
 
 .milestoneTree{
@@ -86,9 +85,9 @@ body{
 
 #leftLine {
     position: absolute;
-    left: 13%;
+    left: 139px;
     text-align: center;
-    max-width: 10%;
+    max-width: 140px;
     top: 20%;
 }
 
@@ -115,7 +114,7 @@ body{
 #milestoneLines{
     border-width: 3px 3px 0px 3px;
     border-color: var(--mainBlue);
-    width: 60%;
+    width: 50%;
     height: 80%;
     margin-top: 5px;
     display: flex;
@@ -198,7 +197,7 @@ div.notes > span{
 
 
 p.treeRight {
-    right: 1%;
+    left: 52px;
     position: relative;
     background: var(--skyBlue);
     padding: 10px;
@@ -206,6 +205,7 @@ p.treeRight {
     color: var(--mainBlue);
     border: 3px solid var(--mainBlue);
     border-radius: 4px;
+    text-align: center;
 }
 p.treeRight.item:last-child{
     border: 1px solid var(--mainBlue);
@@ -229,8 +229,10 @@ p.treeLeft {
     border: 3px solid var(--mainBlue);
     border-radius: 4px;
 }
-p.treeLeft.item:last-child{
+p.treeLeft:last-of-type{
     border: 1px solid var(--mainBlue);
+    background-color: var(--mainBlue);
+    color:#fff;
 }
 
 .severity{
