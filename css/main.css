@@ -62,7 +62,7 @@ body{
 }
 
 .left{
-    min-width: 300px;   
+    min-width: 340px;   
 }
 
 .milestoneTree{
@@ -83,20 +83,20 @@ body{
     margin-top:10px;
 }
 
-#leftLine {
+/* #leftLine {
     position: absolute;
     left: 139px;
     text-align: center;
     max-width: 140px;
     top: 20%;
-}
+} */
 
 #btnStartOver, #btnBack{
     border: 2px solid var(--mainBlue);
     border-radius: 2px;
     padding:3px;
     color:var(--mainBlue);
-    width: 42%;
+    width: 46%;
     display: flex;
     justify-content: center;
     padding: 4% 0;
@@ -197,7 +197,7 @@ div.notes > span{
 
 
 p.treeRight {
-    left: 52px;
+    left: 75px;
     position: relative;
     background: var(--skyBlue);
     padding: 10px;
@@ -220,7 +220,8 @@ p.treeRight.item:last-child{
     min-width: 78px;
 }
 p.treeLeft {
-    left: 1%;
+    left: -74PX;
+    text-align: center;
     position: relative;
     background: var(--skyBlue);
     padding: 10px;
@@ -229,7 +230,7 @@ p.treeLeft {
     border: 3px solid var(--mainBlue);
     border-radius: 4px;
 }
-p.treeLeft:last-of-type{
+p.treeLeft:last-of-type, p.treeRight:last-of-type{
     border: 1px solid var(--mainBlue);
     background-color: var(--mainBlue);
     color:#fff;
