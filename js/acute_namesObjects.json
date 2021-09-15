@@ -1,13 +1,14 @@
-[
+{
+  "acute_2":
   {
     "objectID": "acute_2",
     "Coming from": "",
     "action_1": "",
-    "action1_class": "",
+    "programming notes-  action1_class": "",
     "action_2": "",
-    "action2_class": "",
+    "programming notes- action2_class": "",
     "question": "Is the chest pain acute or stable?",
-    "question_class": "",
+    "programming notes- Q : class": "",
     "answer1": "Acute",
     "answer1_go_to": "acute_3",
     "answer2": "Stable",
@@ -89,6 +90,7 @@
     "INOCA Pathway": "",
     "end": ""
   },
+  "acute_3":
   {
     "objectID": "acute_3",
     "Coming from": "Acute> J2",
@@ -112,7 +114,7 @@
     "answer6_go_to": "",
     "notes": "",
     "Links (URL)": "",
-    "Acute":"true",
+    "Acute": true,
     "Obvious Non-cardiac Cause": "",
     "Obvious Non-ischemic Cardiac Cause": "",
     "STEMI": "",
@@ -179,6 +181,7 @@
     "INOCA Pathway": "",
     "end": ""
   },
+  "acute_4":
   {
     "objectID": "acute_4",
     "Coming from": "Acute> J3",
@@ -202,8 +205,8 @@
     "answer6_go_to": "",
     "notes": "",
     "Links (URL)": "Section 4.3. Evaluation of Acute Chest Pain With Suspected Noncardiac Causes\" : Insert JACC Anchor Tag for Section 4.3. Evaluation of Acute Chest Pain With Suspected Noncardiac Causes",
-    "Acute":"true",
-    "Obvious Non-cardiac Cause":"true",
+    "Acute": true,
+    "Obvious Non-cardiac Cause": true,
     "Obvious Non-ischemic Cardiac Cause": "",
     "STEMI": "",
     "Other ACS": "",
@@ -267,8 +270,9 @@
     "Defer Invasive Coronary Angiography": "",
     "Preventive strategies and option to defer testing": "",
     "INOCA Pathway": "",
-    "end":true
+    "end": true
   },
+  "acute_5":
   {
     "objectID": "acute_5",
     "Coming from": "Acute> L3",
@@ -292,9 +296,9 @@
     "answer6_go_to": "",
     "notes": "",
     "Links (URL)": "Section 4.2. Evaluation of Acute Chest Pain With Nonischemic Cardiac Pathologies\" :  Insert JACC Anchor tag for Section 4.2. Evaluation of Acute Chest Pain With Nonischemic Cardiac Pathologies",
-    "Acute":"true",
+    "Acute": true,
     "Obvious Non-cardiac Cause": "",
-    "Obvious Non-ischemic Cardiac Cause":"true",
+    "Obvious Non-ischemic Cardiac Cause": true,
     "STEMI": "",
     "Other ACS": "",
     "Low Risk": "",
@@ -357,8 +361,9 @@
     "Defer Invasive Coronary Angiography": "",
     "Preventive strategies and option to defer testing": "",
     "INOCA Pathway": "",
-    "end":true
+    "end": true
   },
+  "acute_6":
   {
     "objectID": "acute_6",
     "Coming from": "Acute> N3",
@@ -382,10 +387,10 @@
     "answer6_go_to": "",
     "notes": "",
     "Links (URL)": "STEMI guidelines\": https://www.jacc.org/doi/full/10.1016/j.jacc.2012.11.019?_ga=2.163803709.381967795.1626963202-1372334360.1532626008",
-    "Acute":"true",
+    "Acute": true,
     "Obvious Non-cardiac Cause": "",
     "Obvious Non-ischemic Cardiac Cause": "",
-    "STEMI":"true",
+    "STEMI": true,
     "Other ACS": "",
     "Low Risk": "",
     "Intermediate Risk": "",
@@ -447,8 +452,9 @@
     "Defer Invasive Coronary Angiography": "",
     "Preventive strategies and option to defer testing": "",
     "INOCA Pathway": "",
-    "end":true
-  }, 
+    "end": true
+  },
+  "acute_7":
   {
     "objectID": "acute_7",
     "Coming from": "Acute> P3",
@@ -472,11 +478,11 @@
     "answer6_go_to": "acute_13",
     "notes": "",
     "Links (URL)": "",
-    "Acute":"true",
+    "Acute": true,
     "Obvious Non-cardiac Cause": "",
     "Obvious Non-ischemic Cardiac Cause": "",
     "STEMI": "",
-    "Other ACS":"true",
+    "Other ACS": true,
     "Low Risk": "",
     "Intermediate Risk": "",
     "High Risk": "",
@@ -539,6 +545,7 @@
     "INOCA Pathway": "",
     "end": ""
   },
+  "acute_8":
   {
     "objectID": "acute_8",
     "Coming from": "Acute> J7",
@@ -562,11 +569,11 @@
     "answer6_go_to": "",
     "notes": "See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI). See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
     "Links (URL)": "table 6\": Insert JACC Anchor tag to Table 6. Sample Clinical Decision Pathways Used to Define Risk in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).  \"table 8\": Insert JACC Anchor tag to Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
-    "Acute":"true",
+    "Acute": true,
     "Obvious Non-cardiac Cause": "",
     "Obvious Non-ischemic Cardiac Cause": "",
     "STEMI": "",
-    "Other ACS":"true",
+    "Other ACS": true,
     "Low Risk": "",
     "Intermediate Risk": "",
     "High Risk": "",
@@ -629,6 +636,7 @@
     "INOCA Pathway": "",
     "end": ""
   },
+  "acute_9":
   {
     "objectID": "acute_9",
     "Coming from": "Acute> L7",
@@ -652,11 +660,11 @@
     "answer6_go_to": "",
     "notes": "See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI). See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
     "Links (URL)": "table 6\": Insert JACC Anchor tag to Table 6. Sample Clinical Decision Pathways Used to Define Risk in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).  \"table 8\": Insert JACC Anchor tag to Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
-    "Acute":"true",
+    "Acute": true,
     "Obvious Non-cardiac Cause": "",
     "Obvious Non-ischemic Cardiac Cause": "",
     "STEMI": "",
-    "Other ACS":"true",
+    "Other ACS": true,
     "Low Risk": "",
     "Intermediate Risk": "",
     "High Risk": "",
@@ -719,6 +727,7 @@
     "INOCA Pathway": "",
     "end": ""
   },
+  "acute_10":
   {
     "objectID": "acute_10",
     "Coming from": "Acute> N7",
@@ -742,11 +751,11 @@
     "answer6_go_to": "",
     "notes": "See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI). See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
     "Links (URL)": "table 6\": Insert JACC Anchor tag to Table 6. Sample Clinical Decision Pathways Used to Define Risk in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).  \"table 8\": Insert JACC Anchor tag to Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
-    "Acute":"true",
+    "Acute": true,
     "Obvious Non-cardiac Cause": "",
     "Obvious Non-ischemic Cardiac Cause": "",
     "STEMI": "",
-    "Other ACS":"true",
+    "Other ACS": true,
     "Low Risk": "",
     "Intermediate Risk": "",
     "High Risk": "",
@@ -809,6 +818,7 @@
     "INOCA Pathway": "",
     "end": ""
   },
+  "acute_11":
   {
     "objectID": "acute_11",
     "Coming from": "Acute> P7",
@@ -832,11 +842,11 @@
     "answer6_go_to": "",
     "notes": "See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI). See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
     "Links (URL)": "table 6\": Insert JACC Anchor tag to Table 6. Sample Clinical Decision Pathways Used to Define Risk in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).  \"table 8\": Insert JACC Anchor tag to Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
-    "Acute":"true",
+    "Acute": true,
     "Obvious Non-cardiac Cause": "",
     "Obvious Non-ischemic Cardiac Cause": "",
     "STEMI": "",
-    "Other ACS":"true",
+    "Other ACS": true,
     "Low Risk": "",
     "Intermediate Risk": "",
     "High Risk": "",
@@ -899,6 +909,7 @@
     "INOCA Pathway": "",
     "end": ""
   },
+  "acute_12":
   {
     "objectID": "acute_12",
     "Coming from": "Acute> R7",
@@ -922,11 +933,11 @@
     "answer6_go_to": "",
     "notes": "See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI). See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
     "Links (URL)": "table 6\": Insert JACC Anchor tag to Table 6. Sample Clinical Decision Pathways Used to Define Risk in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).  \"table 8\": Insert JACC Anchor tag to Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
-    "Acute":"true",
+    "Acute": true,
     "Obvious Non-cardiac Cause": "",
     "Obvious Non-ischemic Cardiac Cause": "",
     "STEMI": "",
-    "Other ACS":"true",
+    "Other ACS": true,
     "Low Risk": "",
     "Intermediate Risk": "",
     "High Risk": "",
@@ -989,6 +1000,7 @@
     "INOCA Pathway": "",
     "end": ""
   },
+  "acute_13":
     {
     "objectID": "acute_13",
     "Coming from": "Acute> T7",
@@ -1012,11 +1024,11 @@
     "answer6_go_to": "",
     "notes": "See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI). See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
     "Links (URL)": "table 6\": Insert JACC Anchor tag to Table 6. Sample Clinical Decision Pathways Used to Define Risk in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).  \"table 8\": Insert JACC Anchor tag to Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
-    "Acute":"true",
+    "Acute": true,
     "Obvious Non-cardiac Cause": "",
     "Obvious Non-ischemic Cardiac Cause": "",
     "STEMI": "",
-    "Other ACS":"true",
+    "Other ACS": true,
     "Low Risk": "",
     "Intermediate Risk": "",
     "High Risk": "",
@@ -1079,6 +1091,7 @@
     "INOCA Pathway": "",
     "end": ""
   },
+  "acute_14":
   {
     "objectID": "acute_14",
     "Coming from": "Acute> J8/J9/J10/J11/J12/J13",
@@ -1102,12 +1115,12 @@
     "answer6_go_to": "",
     "notes": "See Section 4.1.1. Low-Risk Patients With Acute Chest Pain for corresponding guideline recommendation.",
     "Links (URL)": "Section 4.1.1\" Insert JACC anchor tag to Section 4.1.1. Low-Risk Patients With Acute Chest Pain for corresponding guideline recommendation.",
-    "Acute":"true",
+    "Acute": true,
     "Obvious Non-cardiac Cause": "",
     "Obvious Non-ischemic Cardiac Cause": "",
     "STEMI": "",
-    "Other ACS":"true",
-    "Low Risk":"true",
+    "Other ACS": true,
+    "Low Risk": true,
     "Intermediate Risk": "",
     "High Risk": "",
     "No Known CAD": "",
@@ -1160,15 +1173,16 @@
     "Invasive Coronary Angiography with FFR or IFR": "",
     "CCTA": "",
     "GDMT": "",
-    "Discharge":"true",
+    "Discharge": true,
     "Optimize Preventive Therapies": "",
     "Continue Preventive Therapies": "",
     "Invasive Coronary Angiography": "",
     "Defer Invasive Coronary Angiography": "",
     "Preventive strategies and option to defer testing": "",
     "INOCA Pathway": "",
-    "end":true
+    "end": true
   },
+  "acute_15":
   {
     "objectID": "acute_15",
     "Coming from": "Acute> L8/L9/L10/L11/L12/L13",
@@ -1192,13 +1206,13 @@
     "answer6_go_to": "",
     "notes": "",
     "Links (URL)": "",
-    "Acute":"true",
+    "Acute": true,
     "Obvious Non-cardiac Cause": "",
     "Obvious Non-ischemic Cardiac Cause": "",
     "STEMI": "",
-    "Other ACS":"true",
+    "Other ACS": true,
     "Low Risk": "",
-    "Intermediate Risk":"true",
+    "Intermediate Risk": true,
     "High Risk": "",
     "No Known CAD": "",
     "Recent Negative Test": "",
@@ -1259,6 +1273,7 @@
     "INOCA Pathway": "",
     "end": ""
   },
+  "acute_16":
   {
     "objectID": "acute_16",
     "Coming from": "Acute> N8/N9/N10/N11/N12/N13",
@@ -1282,14 +1297,14 @@
     "answer6_go_to": "",
     "notes": "See Section X for corresponding guideline recommendation",
     "Links (URL)": "",
-    "Acute":"true",
+    "Acute": true,
     "Obvious Non-cardiac Cause": "",
     "Obvious Non-ischemic Cardiac Cause": "",
     "STEMI": "",
-    "Other ACS":"true",
+    "Other ACS": true,
     "Low Risk": "",
     "Intermediate Risk": "",
-    "High Risk":"true",
+    "High Risk": true,
     "No Known CAD": "",
     "Recent Negative Test": "",
     "Prior Inconclusive or Mildly Abnormal Stess Test ≤1 year": "",
@@ -1343,10 +1358,10 @@
     "Discharge": "",
     "Optimize Preventive Therapies": "",
     "Continue Preventive Therapies": "",
-    "Invasive Coronary Angiography":"true",
+    "Invasive Coronary Angiography": true,
     "Defer Invasive Coronary Angiography": "",
     "Preventive strategies and option to defer testing": "",
     "INOCA Pathway": "",
-    "end":true
+    "end": true
   }
-]
+}
