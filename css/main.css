@@ -36,7 +36,7 @@ body{
 
 
 .container{
-    min-width: 50%;
+    width:700px;
     max-height: 800px;
     min-height: var(--interactiveMinHeight);
     display: flex;
@@ -59,6 +59,7 @@ body{
     flex-flow: row nowrap;
     flex-direction: row;  
     width: 100%;
+    justify-content: center;
 }
 
 .left{
@@ -79,7 +80,6 @@ body{
 .btns{
     display: flex;
     flex-flow: row nowrap;
-    width:100%;
     margin-top:10px;
 }
 
@@ -112,8 +112,6 @@ body{
 }
 
 #milestoneLines{
-    border-width: 3px 3px 0px 3px;
-    border-color: var(--mainBlue);
     width: 50%;
     height: 80%;
     margin-top: 5px;
@@ -121,6 +119,15 @@ body{
     flex-flow: column;
     border-style: solid;
     min-height: 630px;
+    /* border-image: 
+    linear-gradient(
+      to bottom, 
+      #29487a ,
+      rgba(0, 0, 0, 0)
+    ) 1 100%; */
+    border-color: var(--mainBlue);
+    border-width: 3px 3px 0px 3px;
+
 }
 
 div.milestoneTree span{
@@ -131,11 +138,13 @@ div.milestoneTree span{
     margin-top:5px;
 }
 .right{
-    min-width: 73%;
+    min-width: 50%;
     display: flex;
     flex-flow: column wrap;
     min-height: var(--interactiveMinHeight);
     max-width: 73%;
+    background: #eff4f6;
+    padding: 10px;
 }
 
 .action{
@@ -160,11 +169,11 @@ div.notes > span{
 .action.green {
     background-color: var(--actionGreen);
 }
-#selectionBlock{
+/* #selectionBlock{
     min-height: 200px;
     border: 2px solid grey;
     padding:0;
-}
+} */
 #prompQuestion{
     background-color: var(--mainBlue);
     color: #fff;
@@ -177,6 +186,8 @@ div.notes > span{
     color: rgb(98, 98, 98);
     min-height: 50px;
     border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
     padding: 20px;
 }
 
@@ -184,19 +195,15 @@ div.notes > span{
     background-color: rgb(216, 216, 216);
 }
 
-.answerSelection:last-child{
-    border-bottom: none;
-}
 .notes{
     padding: 20px;
     min-height: 100px;
     border: 2px solid grey;
     margin-top:6px;
+    background:#f9f9f9;
 }
 
-
-
-p.treeRight {
+p.treeRight, .stableConstant {
     left: 75px;
     position: relative;
     background: var(--skyBlue);
@@ -219,7 +226,7 @@ p.treeRight.item:last-child{
     color:  #fff;
     min-width: 78px;
 }
-p.treeLeft {
+p.treeLeft, .acuteConstant {
     left: -74PX;
     text-align: center;
     position: relative;
@@ -230,18 +237,31 @@ p.treeLeft {
     border: 3px solid var(--mainBlue);
     border-radius: 4px;
 }
+
 p.treeLeft:last-of-type, p.treeRight:last-of-type{
     border: 1px solid var(--mainBlue);
     background-color: var(--mainBlue);
     color:#fff;
 }
 
-.severity{
-    width:100%;
-    margin-top: 5px;
+.stableConstant, .acuteConstant{
+    width: 120px;
+    position: relative;
+    border:none;
+    top: 10px;
+}
+
+.stableConstant{
+    top:-29px;
+    left: 90px;
+}
+
+.severity {
+    width: 700px;
+    margin-top: 10px;
     display: flex;
     flex-flow: row wrap;
-
+    /* min-width: 72vw; */
 }
 
 .severity span.degree {
