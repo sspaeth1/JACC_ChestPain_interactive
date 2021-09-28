@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <title>JACC Chest Pain Assessement Tool Interactive</title>
+    <title>JACC Chest Pain Assessement Tool Interactive </title>
 </head>
 <body>
  
     <div class="container"> 
-        <div class="titleHead">
+        <div class="titleContainer">
+         <div class="titleHead">
             <h1>Chest Pain Assessement Tool </h1>
             <h2>JACC Guideline for the Evaluation and Diagnosis of Chest Pain</h2>
         </div> 
@@ -19,6 +20,10 @@
             <div class="left">
                     <div class="milestoneTree">
                         <span>Chest Pain</span>
+                        <div class="constants">
+                            <div class="acuteConstant">Acute</div>
+                            <div class="stableConstant">Stable</div>
+                        </div>
                         <div id="milestoneLines">
                         </div>
                     </div>
@@ -55,9 +60,17 @@
             <span class="degree orange">2b (Weak)</span>
             <span class="degree pink">3 (No Benefit)</span>
             <span class="degree red">3 (harm)</span>
+        </div> 
+        <div id="tempChecks" >
+            <div style=" margin-top:10px; position:relative"> <span id="slideName" style="font-weight: bold; padding: 5px;"></span>  : slide name for QA purposes</div>
+            <div id="history"></div>
+        </div>          
         </div>
     </div>
-    
+
+
+
+
 
     <!-- <script src="./js/indexKey.js" type="module"> -->
 

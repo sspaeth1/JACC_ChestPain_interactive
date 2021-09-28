@@ -1,7 +1,0 @@
-createHistory = ()=>{
-
-}
-
-detroyPreviousHistory = ()=>{
-    
-}
