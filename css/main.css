@@ -1,7 +1,8 @@
 :root{
     --mainBlue: #18305a;
     --notesOrange: #faa84b;
-    --interactiveMinHeight: 600px;
+    --interactiveMinHeight: 500px;
+    --actionWhite: #f5f8f9;
     --actionGreen: #6fc284;
     --skyBlue: #dbf1f9;
     --yellow: #ffd54f;
@@ -20,6 +21,10 @@ body{
     font-family: Calibri, Arial, Helvetica, sans-serif;
 }
 
+.bold{
+    font-weight: 600;
+}
+
 .titleHead{
     color: var(--mainBlue)
 }
@@ -27,6 +32,7 @@ body{
 .titleHead h1{
     font-size: 40px;
     margin-bottom: 0px;
+    margin-top: 5px;
 }
 
 .titleHead h2{
@@ -34,16 +40,22 @@ body{
     font-size: 20px;
 }
 
-
 .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.titleContainer{
     width:700px;
     max-height: 800px;
-    min-height: var(--interactiveMinHeight);
+    min-height: var(--interactiveMinHeght);
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     margin: 0 12%;
 }
+
 .container > h1{
     color: var(--mainBlue);
     font-size: 30px;
@@ -118,13 +130,15 @@ body{
     display: flex;
     flex-flow: column;
     border-style: solid;
-    min-height: 630px;
+    min-height: var(--interactiveMinHeight);
     /* border-image: 
     linear-gradient(
       to bottom, 
       #29487a ,
       rgba(0, 0, 0, 0)
     ) 1 100%; */
+    border-style: solid;
+    border-image: linear-gradient(to bottom, var(--mainBlue) 75%, var(--skyBlue)) 1;
     border-color: var(--mainBlue);
     border-width: 3px 3px 0px 3px;
 
@@ -138,7 +152,7 @@ div.milestoneTree span{
     margin-top:5px;
 }
 .right{
-    min-width: 50%;
+    min-width: 90%;
     display: flex;
     flex-flow: column wrap;
     min-height: var(--interactiveMinHeight);
@@ -151,7 +165,9 @@ div.milestoneTree span{
     border: 2px solid gray;
     min-height: 50px;
     margin-bottom: 6px;
-    padding: 20px;
+    /* padding: 20px;
+    padding-bottom:5px; */
+    padding: 5px;
     border: solid 2px  var(--mainBlue);
 
 }
@@ -169,6 +185,14 @@ div.notes > span{
 .action.green {
     background-color: var(--actionGreen);
 }
+
+.answerSelection.green, .answerSelection.yellow{
+    color: var(--mainBlue);
+}
+
+.action.white{
+    background-color: var(--actionWhite);
+}
 /* #selectionBlock{
     min-height: 200px;
     border: 2px solid grey;
@@ -180,6 +204,7 @@ div.notes > span{
     min-height: 50px;
     border-bottom: 2px solid grey;
     padding: 20px;
+    font-size: 24px;
 }
 .answerSelection{
     background-color: #fff;
@@ -188,7 +213,9 @@ div.notes > span{
     border-bottom: 2px solid grey;
     border-left: 2px solid grey;
     border-right: 2px solid grey;
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    padding: 12px 12px 12px 40px;
 }
 
 .answerSelection:hover{
@@ -207,7 +234,7 @@ p.treeRight, .stableConstant {
     left: 75px;
     position: relative;
     background: var(--skyBlue);
-    padding: 10px;
+    padding: 5px;
     font-weight: bold;
     color: var(--mainBlue);
     border: 3px solid var(--mainBlue);
@@ -218,6 +245,7 @@ p.treeRight.item:last-child{
     border: 1px solid var(--mainBlue);
 }
 
+
 .end {
     background-color: var(--mainBlue);
     border: 1px solid var(--mainBlue);
@@ -227,11 +255,11 @@ p.treeRight.item:last-child{
     min-width: 78px;
 }
 p.treeLeft, .acuteConstant {
-    left: -74PX;
+    left: -80px;
     text-align: center;
     position: relative;
     background: var(--skyBlue);
-    padding: 10px;
+    padding: 5px;
     font-weight: bold;
     color: var(--mainBlue);
     border: 3px solid var(--mainBlue);
@@ -244,20 +272,32 @@ p.treeLeft:last-of-type, p.treeRight:last-of-type{
     color:#fff;
 }
 
+.constants {
+    position: relative;
+    top: 15px;
+    left: -13px;
+    height: 0;
+}
+
+
 .stableConstant, .acuteConstant{
     width: 120px;
     position: relative;
     border:none;
+}
+
+.acuteConstant{
     top: 10px;
+    left: -70px;
 }
 
 .stableConstant{
-    top:-29px;
+    top:-21px;
     left: 90px;
 }
 
 .severity {
-    width: 700px;
+    width: 990px;
     margin-top: 10px;
     display: flex;
     flex-flow: row wrap;
@@ -285,4 +325,69 @@ p.treeLeft:last-of-type, p.treeRight:last-of-type{
 }
 .red{
     background-color: var(--red);
+}
+.blue{
+    background-color: var(--endBlue);
+    color: #fff;
+}
+
+.jaccLink{
+    color: var(--mainBlue);
+    font-weight: bold;
+}
+.jaccLink:hover{
+    color:rgb(51, 79, 202)
+}
+
+
+@media screen and (max-width:905px){
+    .titleContainer {
+        width: 100%;
+        margin: 0;
+    }
+    .titleHead{
+        margin: 0 5%;
+    }
+    .interactive{
+        flex-flow: column-reverse wrap;
+        align-items: center;
+    }
+    .right{
+        min-width: 90%;
+        min-height: auto;
+    }
+    .left{
+        display: flex;
+        flex-flow: column-reverse;
+        width: 85vw; 
+        height: auto;   
+    }
+    .milestoneTree{
+        margin-top:10px;
+        height: auto;
+        min-height: auto;
+    }
+    #milestoneLines{  
+    height: auto;
+    min-height: 200px;
+    width: 40%;
+    }
+    .severity {
+    width:90vw
+    }
+    .degree{
+        font-size: 12px;
+    }
+    .titleHead h1{
+        font-size: 32px;
+    }
+    .left .btns {
+        justify-content: space-evenly;
+    }
+   div.left::after{
+    content: "";
+       min-width: 100%;
+        border-bottom: 2px  solid var(--mainBlue);
+        margin: 10px 0;
+    }
 }
