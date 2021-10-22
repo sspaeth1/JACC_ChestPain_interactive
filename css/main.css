@@ -26,18 +26,20 @@ body{
 }
 
 .titleHead{
-    color: var(--mainBlue)
+    color: var(--mainBlue);
+    margin: 0 20px;
 }
 
 .titleHead h1{
-    font-size: 40px;
+    font-size: 33px;
     margin-bottom: 0px;
     margin-top: 5px;
 }
 
 .titleHead h2{
     margin-top: 0px;
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: normal;
 }
 
 .container{
