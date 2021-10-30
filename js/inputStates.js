@@ -7483,8 +7483,6 @@ let startSlide = "acute_16", //start_2
     "Preventive strategies and option to defer testing",
     "INOCA Pathway",
   ],
-  // Stable milestones are groups under known-CAD and no-known-CAD therefore an order follows each. To allow for a different ordering, no-known-CAD milestones have a space character leading them to allow them to be matched and therfore added later in the forEach
-  // multiple columns in the sheets caused duplicates with extension __1 and __2 causing milestone load issues
   stable_milestones = [
     "stable",
     "No Known CAD",
@@ -7543,7 +7541,6 @@ const createSlide = (slideName) => {
   let tableName = (newSlideName) => {
     for (let i in data) {
       if (i == newSlideName) {
-        console.log(newSlideName, " FOUND NEW SLIDE TABLENAME FORM LOOK UP MATCH");
         return i;
       }
     }
@@ -7564,15 +7561,6 @@ const createSlide = (slideName) => {
         return "white";
         break;
     }
-    // if (colorInput == "green") {
-    //   return "green";
-    // } else if (colorInput == "yellow") {
-    //   return "yellow";
-    // } else if (colorInput == "blue") {
-    //   return "blue";
-    // } else if (!colorInput || colorInput == "") {
-    //   return "";
-    // }
   };
 
   let setEventListnerAnswers = Array.from(document.getElementsByClassName("answerSelection")),
@@ -7667,7 +7655,6 @@ const createSlide = (slideName) => {
         let actionBlockTitle = document.createElement("span");
         actionBlockTitle.innerHTML = "Action " + i;
         grabActionBlock.appendChild(actionBlock);
-        // actionBlock.appendChild(actionBlockTitle);
         let actionBlockText = document.createElement("p");
         actionBlockText.innerHTML = data[slideIndex]["action" + i];
         actionBlock.appendChild(actionBlockText);
@@ -7691,7 +7678,6 @@ const createSlide = (slideName) => {
 
   let addAnswerSections = () => {
     if (data[findIndex(slideName)].answer1 == "") {
-      console.log("no answers");
     } else {
       for (let i = 0; i < answerArray.length; i++) {
         if (answerArray[i] != "") {
@@ -7704,11 +7690,6 @@ const createSlide = (slideName) => {
           } else {
             color;
           }
-          // if (answerArray.length >= 3) {
-          //   newAnswer.setAttribute("class", "answerSelection " + color + "shorter");
-          // } else {
-          //   newAnswer.setAttribute("class", "answerSelection " + color);
-          // }
           newAnswer.setAttribute("class", "answerSelection " + color);
           selectQuestion.parentElement.appendChild(newAnswer);
           newAnswer.innerHTML = answerArray[i];
@@ -7724,8 +7705,6 @@ const createSlide = (slideName) => {
             let addToHistory = (newSlideName) => {
               slideHistory.push(newSlideName);
               window.localStorage.setItem("history", slideHistory);
-
-              console.log("history: " + localStorage.getItem("history"));
             };
 
             addToHistory(newSlideName);
@@ -7783,18 +7762,14 @@ document.getElementById("btnBack").addEventListener("click", () => {
   let retrieveHistory = window.localStorage.getItem("history");
   retrieveHistory = retrieveHistory.split(",");
 
-  console.log(retrieveHistory, "RETREIVED LOCAL HISTORY");
-
   if (retrieveHistory.length <= 1 || retrieveHistory == "" || retrieveHistory == undefined) {
     slideHistory = [];
-    console.log("no history");
     createSlide(startSlide);
   } else {
     retrieveHistory.pop();
     slideHistory = retrieveHistory;
     window.localStorage.setItem("history", "");
     window.localStorage.setItem("history", retrieveHistory);
-    console.log(retrieveHistory, "history array after pop");
     createSlide(retrieveHistory[retrieveHistory.length - 1]);
   }
 });
