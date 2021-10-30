@@ -1,4 +1,4 @@
-let startSlide = "start_2", //start_2
+let startSlide = "acute_16", //start_2
   slideHistory = [],
   milestoneHistory = [],
   start = [
@@ -186,7 +186,7 @@ let startSlide = "start_2", //start_2
       objectID: "acute_4",
       "Coming from": "Acute> L3",
       action1:
-        "See <a href ='future-jaccLink-acute_4_Section 4.3.' target='_blank'  class='jaccLink' >Section 4.3.  Evaluation of Acute Chest Pain With Suspected Noncardiac Causes</a> in the 2021 Chest Pain Guideline",
+        "See <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.3' target='_blank'  class='jaccLink' >Section 4.3.  Evaluation of Acute Chest Pain With Suspected Noncardiac Causes</a> in the 2021 Chest Pain Guideline",
       action1_class: "",
       action2: "",
       action2_class: "",
@@ -252,7 +252,7 @@ let startSlide = "start_2", //start_2
       objectID: "acute_5",
       "Coming from": "Acute> N3",
       action1:
-        "See <a href ='future-jaccLink-acute_5_Section 4.2' target='_blank'   class='jaccLink'>Section 4.2. Evaluation of Acute Chest Pain With Nonischemic Cardiac Pathologies </a>in the 2021 Chest Pain Guideline",
+        "See <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.2' target='_blank'   class='jaccLink'>Section 4.2. Evaluation of Acute Chest Pain With Nonischemic Cardiac Pathologies </a>in the 2021 Chest Pain Guideline",
       action1_class: "",
       action2: "",
       action2_class: "",
@@ -404,7 +404,7 @@ let startSlide = "start_2", //start_2
       answer6: "ESC/ GRACE",
       answer6_go_to: "acute_13",
       notes:
-        "<a href ='future-jaccLink-table6' target='_blank'   class='jaccLink'>See Table 6.Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).  </a>",
+        "<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#tbl6' target='_blank'   class='jaccLink'>See Table 6.Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).  </a>",
       link_text:
         "See Table 6. Sample Clinical Decision Pathways Used to Define Risk in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).",
       link_url: "[Insert JACC anchor tag]",
@@ -471,7 +471,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "<a href ='future-jaccLink-table6' target='_blank'   class='jaccLink'>See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).</a>  <br><br> <a href ='future-jaccLink-table8' target='_blank'   class='jaccLink'> See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain.</a>",
+        "<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#tbl6' target='_blank'   class='jaccLink'>See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).</a>  <br><br> <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#tbl8' target='_blank'   class='jaccLink'> See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain.</a>",
       link_text:
         "see Table 6. Sample Clinical Decision Pathways Used to Define Risk in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).?  <br><br>AND <br><br>see Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
       link_url: "[insert JACC anchor tags for tables 6 and 8]",
@@ -538,7 +538,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "<a href ='future-jaccLink-table6' target='_blank'   class='jaccLink'>See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).</a>  <br><br> <a href ='future-jaccLink-table8' target='_blank'   class='jaccLink'> See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain.</a>",
+        "<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#tbl6' target='_blank'   class='jaccLink'>See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).</a>  <br><br> <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#tbl8' target='_blank'   class='jaccLink'> See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain.</a>",
       link_text:
         "see Table 6. Sample Clinical Decision Pathways Used to Define Risk in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).?  <br><br>AND <br><br>see Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
       link_url: "[insert JACC anchor tags for tables 6 and 8]",
@@ -605,7 +605,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "<a href ='future-jaccLink-table6' target='_blank'   class='jaccLink'>See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).</a>  <br><br> <a href ='future-jaccLink-table8' target='_blank'   class='jaccLink'> See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain.</a>",
+        "<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#tbl6' target='_blank'   class='jaccLink'>See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).</a>  <br><br> <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#tbl8' target='_blank'   class='jaccLink'> See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain.</a>",
       link_text:
         "see Table 6. Sample Clinical Decision Pathways Used to Define Risk in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).?  <br><br>AND <br><br>see Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
       link_url: "[insert JACC anchor tags for tables 6 and 8]",
@@ -672,7 +672,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "<a href ='future-jaccLink-table6' target='_blank'   class='jaccLink'>See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).</a>  <br><br> <a href ='future-jaccLink-table8' target='_blank'   class='jaccLink'> See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain.</a>",
+        "<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#tbl6' target='_blank'   class='jaccLink'>See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).</a>  <br><br> <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#tbl8' target='_blank'   class='jaccLink'> See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain.</a>",
       link_text:
         "see Table 6. Sample Clinical Decision Pathways Used to Define Risk in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).?  <br><br>AND <br><br>see Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
       link_url: "[insert JACC anchor tags for tables 6 and 8]",
@@ -741,7 +741,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "<a href ='future-jaccLink-table6' target='_blank'   class='jaccLink'>See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).</a>  <br><br> <a href ='future-jaccLink-table8' target='_blank'   class='jaccLink'> See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain.</a>",
+        "<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#tbl6' target='_blank'   class='jaccLink'>See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).</a>  <br><br> <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#tbl8' target='_blank'   class='jaccLink'> See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain.</a>",
       link_text:
         "see Table 6. Sample Clinical Decision Pathways Used to Define Risk in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).?   AND  see Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
       link_url: "[insert JACC anchor tags for tables 6 and 8]",
@@ -809,7 +809,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "<a href ='future-jaccLink-table6' target='_blank'   class='jaccLink'>See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).</a>  <br><br> <a href ='future-jaccLink-table8' target='_blank'   class='jaccLink'> See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain.</a>",
+        "<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#tbl6' target='_blank'   class='jaccLink'>See Table 6. Sample Clinical Decision Pathways Used to Define Risk in in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).</a>  <br><br> <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#tbl8' target='_blank'   class='jaccLink'> See Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain.</a>",
       link_text:
         "see Table 6. Sample Clinical Decision Pathways Used to Define Risk in Section 4.1. Patients With Acute Chest Pain and Suspected ACS (Not Including STEMI).?   AND  see Table 8. Definition Used for Low-Risk Patients With Chest Pain in Section 4.1.1. Low-Risk Patients With Acute Chest Pain",
       link_url: "[insert JACC anchor tags for tables 6 and 8]",
@@ -877,7 +877,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "See Section 4.1.1.  <a href ='future-jaccLink_Section 4.1.1' target='_blank'   class='jaccLink'>Low-Risk Patients With Acute Chest Pain for Guideline recommendation.</a>",
+        "See Section 4.1.1.  <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.1' target='_blank'   class='jaccLink'>Low-Risk Patients With Acute Chest Pain for Guideline recommendation.</a>",
       link_text: "see  Section 4.1.1. Low-Risk Patients With Acute Chest Pain for Guideline recommendation.",
       link_url: "[Insert JACC anchor tag]",
       Acute: "TRUE",
@@ -1008,7 +1008,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with acute chest pain and suspected ACS who are designated as high risk, ICA is recommended.  For additional information    see  <a href ='future-jaccLink-acute_16' target='_blank'   class='jaccLink'>Section 4.1.3. High-Risk Patients With Acute Chest Pain. <br><br>  </a>See <a href ='https://www.acc.org/Guidelines' target='_blank'   class='jaccLink'> ACC Clinical Policy page </a>for additional information not covered in the 2021 Chest Pain Guideline.",
+        "Guideline recommendation (COR 1): For patients with acute chest pain and suspected ACS who are designated as high risk, ICA is recommended.  For additional information    see  <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#acsec8.1.3' target='_blank'   class='jaccLink'>Section 4.1.3. High-Risk Patients With Acute Chest Pain. <br><br>  </a>See <a href ='https://www.acc.org/Guidelines' target='_blank'   class='jaccLink'> ACC Clinical Policy page </a>for additional information not covered in the 2021 Chest Pain Guideline.",
       link_text: 'see Section 4.1.3. High-Risk Patients With Acute Chest Pain." AND "See ACC Clinical Policy page',
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines",
       Acute: "TRUE",
@@ -1273,7 +1273,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain, moderate-severe ischemia on current or prior (&le;1 year) stress testing, and no known CAD established by prior anatomic testing, ICA is recommended.  For additional information from the 2011 Chest Pain Guideline see   Section 4.1.2.1. <a href ='future-jaccLink-Section_4.1.2.1' target='_blank'   class='jaccLink'>Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD) </a> . See <a href ='fhttps://www.acc.org/Guidelines' target='_blank'   class='jaccLink'>   ACC Clinical Policy page </a>for additional information not covered in the 2021 Chest Pain Guideline.",
+        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain, moderate-severe ischemia on current or prior (&le;1 year) stress testing, and no known CAD established by prior anatomic testing, ICA is recommended.  For additional information from the 2011 Chest Pain Guideline see   Section 4.1.2.1. <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD) </a> . See <a href ='fhttps://www.acc.org/Guidelines' target='_blank'   class='jaccLink'>   ACC Clinical Policy page </a>for additional information not covered in the 2021 Chest Pain Guideline.",
       link_text: ' Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)" AND "ACC Clinical Policy page',
       link_url: "[insert JACC anchor tag} AND [insert link to https://www.acc.org/Guidelines",
       Acute: "TRUE",
@@ -1339,7 +1339,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Recommendation from the Chest Pain Guideline (COR 2a): For intermediate-risk patients with acute chest pain with evidence of previous mildly abnormal stress test results (&le;1 year), CCTA is reasonable for diagnosing obstructive CAD. <br> <br> For additional information see Section 4.1.2.1.<a href ='future-jaccLink-Section_4.1.2.1' target='_blank'   class='jaccLink'> Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)</a>",
+        "Recommendation from the Chest Pain Guideline (COR 2a): For intermediate-risk patients with acute chest pain with evidence of previous mildly abnormal stress test results (&le;1 year), CCTA is reasonable for diagnosing obstructive CAD. <br> <br> For additional information see Section 4.1.2.1.<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'> Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)</a>",
       link_text: "see Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)",
       link_url: "",
       Acute: "TRUE",
@@ -1405,7 +1405,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Consider INOCA pathway as an outpatient for frequent or persistent symptoms. See <a href ='future-jaccLink-acute_fig9_7' target='_blank'   class='jaccLink'> Figure 14. Clinical Decision Pathway for INOCA. in Section 5.2.3. Patients With Supected Ischemia and No Obstructive CAD (INOCA)</a>",
+        "Consider INOCA pathway as an outpatient for frequent or persistent symptoms. See <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#fig14' target='_blank'   class='jaccLink'> Figure 14. Clinical Decision Pathway for INOCA. in Section 5.2.3. Patients With Supected Ischemia and No Obstructive CAD (INOCA)</a>",
       link_text: "Figure 14. Clinical Decision Pathway for INOCA. in Section 5.2.3. Patients With Suspected Ischemia and No Obstructive CAD (INOCA)",
       link_url: "[Insert JACC anchor tag]",
       Acute: "TRUE",
@@ -1538,7 +1538,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br><br>  For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'> Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD</a>",
+        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br><br>  For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'> Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD</a>",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
       link_url: "[Insert JACC anchor tag]",
       Acute: "TRUE",
@@ -1605,7 +1605,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Recommendation from the Chest Pain Guideline (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended.  <br> For additional information from the 2021 Chest Pain Guideline see  <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'> Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD. See ACC Clinical Policy page</a> for additional information not covered in the 2021 Chest Pain Guideline.",
+        "Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and no known CAD, with a coronary artery stenosis of 40% to 90% in a proximal or middle coronary artery on CCTA, FFR-CT can be useful for the diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization.  <br><br><a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'> For additional information see 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)</a>",
       link_text: 'see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD?  AND "ACC Clinical Policy page',
       link_url: "[insert JACC anchor tag} AND [insert link to https://www.acc.org/Guidelines",
       Acute: "TRUE",
@@ -1737,7 +1737,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Recommendation from the Chest Pain Guideline (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information from the 2021 Chest Pain Guideline see  <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a> See  <a href ='https://www.acc.org/Guideline' target='_blank'   class='jaccLink'>ACC Clinical Policy page </a>for additional information not covered in the 2021 Chest Pain Guideline.",
+        "Recommendation from the Chest Pain Guideline (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information from the 2021 Chest Pain Guideline see  <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)</a> See  <a href ='https://www.acc.org/Guideline' target='_blank'   class='jaccLink'>ACC Clinical Policy page </a>for additional information not covered in the 2021 Chest Pain Guideline.",
       link_text: 'see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD    AND   "ACC Clinical Policy page',
       link_url: '[Insert JACC anchor tag for section] AND https://www.acc.org/Guidelines for "ACC Clinical Policy page',
       Acute: "TRUE",
@@ -1803,8 +1803,8 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and known nonobstructive CAD, CCTA can be useful to determine progression of atherosclerotic plaque and obstructive CAD. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and coronary artery stenosis of 40% to 90% in a proximal or middle segment on CCTA, FFR-CT is reasonable for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD </a>",
-      link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
+        "Please replace the text in the notes section with: 'Guideline recommendation (COR2a): For intermediate-risk patients with acute chest pain with evidence of previous mildly abnormal stress test results (≤1 year), CCTA is reasonable for diagnosing obstructive CAD.<br><br> Guideline recommendation (COR2a): For intermediate-risk patients with acute chest pain and no known CAD, with a coronary artery stenosis of 40% to 90% in a proximal or middle coronary artery on CCTA, FFR-CT can be useful for the diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br> <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>For additional information see Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)</a>",
+      link_text: "",
       link_url: "[Insert JACC anchor tag]",
       Acute: "TRUE",
       "Obvious Non-cardiac Cause": "",
@@ -1869,8 +1869,8 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and known nonobstructive CAD, CCTA can be useful to determine progression of atherosclerotic plaque and obstructive CAD. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and coronary artery stenosis of 40% to 90% in a proximal or middle segment on CCTA, FFR-CT is reasonable for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD </a>",
-      link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
+        "Guideline recommendation (COR2a): For intermediate-risk patients with acute chest pain and no known CAD, with a coronary artery stenosis of 40% to 90% in a proximal or middle coronary artery on CCTA, FFR-CT can be useful for the diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br> <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>For additional information see Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)</a>",
+      link_text: "",
       link_url: "[Insert JACC anchor tag]",
       Acute: "TRUE",
       "Obvious Non-cardiac Cause": "",
@@ -1935,7 +1935,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'> Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD </a>",
+        "Guideline recommendation (COR2a): For intermediate-risk patients with acute chest pain and no known CAD, with a coronary artery stenosis of 40% to 90% in a proximal or middle coronary artery on CCTA, FFR-CT can be useful for the diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization.<br><br><a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>For additional information see Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)</a>",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
       link_url: "[Insert JACC anchor tag]",
       Acute: "TRUE",
@@ -2001,7 +2001,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Recommendation from the Chest Pain Guideline (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information <a href ='future-jaccLink-Section-jaccLink-Section_4.1.2.2' target='_blank'   class='jaccLink'>see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a> <br><br> <a href ='https://www.acc.org/Guidelines' target='_blank'   class='jaccLink'>See ACC Clinical Policy page </a>for additional information not covered in the 2021 Chest Pain Guideline.",
+        "Guideline recommendation (COR2a): For intermediate-risk patients with acute chest pain and no known CAD, with a coronary artery stenosis of 40% to 90% in a proximal or middle coronary artery on CCTA, FFR-CT can be useful for the diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br><a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>For additional information see Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)</a>",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.? AND see ACC Clinical Policy page",
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines.",
       Acute: "TRUE",
@@ -2067,7 +2067,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD </a>",
+        "<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>For additional information see Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)</a>",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
       link_url: "[Insert JACC anchor tag]",
       Acute: "TRUE",
@@ -2133,7 +2133,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain and no known CAD who are eligible for cardiac testing, either exercise ECG, stress echocardiography, stress PET/SPECT MPI, or stress CMR is useful for the diagnosis of myocardial ischemia. <br>Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain and no known CAD eligible for diagnostic testing after a negative or inconclusive evaluation for ACS, CCTA is useful for exclusion of atherosclerotic plaque and obstructive CAD. <br><br>For additional information see <a href ='future-jaccLink-Section-jaccLink-Section_4.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD). </a>",
+        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain and no known CAD who are eligible for cardiac testing, either exercise ECG, stress echocardiography, stress PET/SPECT MPI, or stress CMR is useful for the diagnosis of myocardial ischemia. <br>Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain and no known CAD eligible for diagnostic testing after a negative or inconclusive evaluation for ACS, CCTA is useful for exclusion of atherosclerotic plaque and obstructive CAD. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD). </a>",
       link_text: "see Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -2264,7 +2264,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "For additional information see <a href ='future-jaccLink-Section-jaccLink-Section_4.1.2.1' target='_blank'   class='jaccLink'>4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD).</a>",
+        "For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD).</a>",
       link_text: "see Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -2330,7 +2330,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain, moderate-severe ischemia on current or prior (1 year) stress testing, and no known CAD established by prior anatomic testing, ICA is recommended. <br><br>For additional information see <a href ='future-jaccLink-Section-jaccLink-Section_4.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD). See ACC Clinical Policy page </a> for additional information not covered in the 2021 Chest Pain Guideline.",
+        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain, moderate-severe ischemia on current or prior (1 year) stress testing, and no known CAD established by prior anatomic testing, ICA is recommended. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD). See ACC Clinical Policy page </a> for additional information not covered in the 2021 Chest Pain Guideline.",
       link_text: "see Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD).? AND see ACC Clinical Policy page",
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines.",
       Acute: "TRUE",
@@ -2396,7 +2396,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain and no known CAD eligible for diagnostic testing after a negative or inconclusive evaluation for ACS, CCTA is useful for exclusion of atherosclerotic plaque and obstructive CAD. <br><br>For additional information see <a href ='future-jaccLink-Section_4.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD).</a>",
+        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain and no known CAD eligible for diagnostic testing after a negative or inconclusive evaluation for ACS, CCTA is useful for exclusion of atherosclerotic plaque and obstructive CAD. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD).</a>",
       link_text: "see Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -2462,7 +2462,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "For additional information see <a href ='future-jaccLink-Section_4.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD).</a>",
+        "For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD).</a>",
       link_text: "see Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -2528,8 +2528,8 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and no known CAD, with a coronary artery stenosis of 40% to 90% in a proximal or middle coronary artery on CCTA, FFR-CT can be useful for the diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and no known CAD, as well as an inconclusive prior stress test, CCTA can be useful for excluding the presence of atherosclerotic plaque and obstructive CAD. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and no known CAD, with an inconclusive CCTA, stress imaging (with echocardiography, PET/SPECT MPI, or CMR) can be useful for the diagnosis of myocardial ischemia. <br><br>For additional information see <a href ='future-jaccLink-Section_4.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1.</a> Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD).",
-      link_text: "see Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)",
+        "Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and no known CAD, with an inconclusive CCTA, stress imaging (with echocardiography, PET/SPECT MPI, or CMR) can be useful for the diagnosis of myocardial ischemia. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1.</a> Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD).",
+      link_text: "",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
       "Obvious Non-cardiac Cause": "",
@@ -2595,7 +2595,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and no known CAD, with a coronary artery stenosis of 40% to 90% in a proximal or middle coronary artery on CCTA, FFR-CT can be useful for the diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and no known CAD, as well as an inconclusive prior stress test, CCTA can be useful for excluding the presence of atherosclerotic plaque and obstructive CAD. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and no known CAD, with an inconclusive CCTA, stress imaging (with echocardiography, PET/SPECT MPI, or CMR) can be useful for the diagnosis of myocardial ischemia. <br><br>For additional information see <a href ='future-jaccLink-Section_4.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD).</a> <br><br>",
+        "Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and no known CAD, with an inconclusive CCTA, stress imaging (with echocardiography, PET/SPECT MPI, or CMR) can be useful for the diagnosis of myocardial ischemia.<br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD).</a> <br><br>",
       link_text: "see Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known (CAD)",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -2662,8 +2662,8 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD. </a>",
-      link_text: "see 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.",
+        "Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and no known CAD, with a coronary artery stenosis of 40% to 90% in a proximal or middle coronary artery on CCTA, FFR-CT can be useful for the diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known CAD. </a>",
+      link_text: "",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
       "Obvious Non-cardiac Cause": "",
@@ -2729,7 +2729,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information see<a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'> 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD. See ACC Clinical Policy page </a>for additional information not covered in the 2021 Chest Pain Guideline.",
+        "Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and no known CAD, with a coronary artery stenosis of 40% to 90% in a proximal or middle coronary artery on CCTA, FFR-CT can be useful for the diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>For additional information see<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'> 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known CAD.",
       link_text: "see 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.? AND see ACC Clinical Policy page",
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines.",
       Acute: "TRUE",
@@ -2796,8 +2796,8 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2 target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
-      link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
+        "For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known CAD.</a>",
+      link_text: "",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
       "Obvious Non-cardiac Cause": "",
@@ -2928,8 +2928,8 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD. See ACC Clinical Policy page </a> for additional information not covered in the 2021 Chest Pain Guideline.",
-      link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.? AND see ACC Clinical Policy page",
+        "For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known CAD.</a>",
+      link_text: "",
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines.",
       Acute: "TRUE",
       "Obvious Non-cardiac Cause": "",
@@ -2994,7 +2994,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and known nonobstructive CAD, CCTA can be useful to determine progression of atherosclerotic plaque and obstructive CAD. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and coronary artery stenosis of 40% to 90% in a proximal or middle segment on CCTA, FFR-CT is reasonable for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and known CAD who have new onset or worsening symptoms, stress imaging (PET/SPECT MPI, CMR, or stress echocardiography) is reasonable. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
+        "Guideline recommendation (COR2a): For intermediate-risk patients with acute chest pain and no known CAD, with a coronary artery stenosis of 40% to 90% in a proximal or middle coronary artery on CCTA, FFR-CT can be useful for the diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization.<br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known CAD.</a>",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -3060,8 +3060,8 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and known nonobstructive CAD, CCTA can be useful to determine progression of atherosclerotic plaque and obstructive CAD. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and coronary artery stenosis of 40% to 90% in a proximal or middle segment on CCTA, FFR-CT is reasonable for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and known CAD who have new onset or worsening symptoms, stress imaging (PET/SPECT MPI, CMR, or stress echocardiography) is reasonable. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD. </a>",
-      link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
+        "Guideline recommendation (COR2a): For intermediate-risk patients with acute chest pain and no known CAD, with a coronary artery stenosis of 40% to 90% in a proximal or middle coronary artery on CCTA, FFR-CT can be useful for the diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization.<br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known CAD.</a>",
+      link_text: "",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
       "Obvious Non-cardiac Cause": "",
@@ -3126,8 +3126,8 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br>For additional information see<a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'> Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
-      link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.",
+        "For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known CAD.</a>",
+      link_text: "",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
       "Obvious Non-cardiac Cause": "",
@@ -3192,7 +3192,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information see<a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'> Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD. See ACC Clinical Policy page </a>for additional information not covered in the 2021 Chest Pain Guideline.",
+        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information see<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'> Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD. See ACC Clinical Policy page </a>for additional information not covered in the 2021 Chest Pain Guideline.",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.? AND see ACC Clinical Policy page",
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines.",
       Acute: "TRUE",
@@ -3258,8 +3258,8 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_go_to: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br>For additional information see<a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'> Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
-      link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
+        "For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.1' target='_blank'   class='jaccLink'>Section 4.1.2.1. Intermediate-Risk Patients With Acute Chest Pain and No Known CAD.</a>",
+      link_text: "",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
       "Obvious Non-cardiac Cause": "",
@@ -3326,8 +3326,7 @@ let startSlide = "start_2", //start_2
       answer5_go_to: "",
       answer6: "",
       answer6_class: "",
-      notes:
-        "If extensive plaque is present, a high-quality CCTA is unlikely to be achieved, and stress testing is preferred.<br>Obstructive CAD includes prior coronary artery bypass graft/percutaneous coronary intervention.",
+      notes: "Obstructive CAD includes prior coronary artery bypass graft/percutaneous coronary intervention.",
       link_text: "",
       link_url: "",
       Acute: "TRUE",
@@ -3394,7 +3393,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and known nonobstructive CAD, CCTA can be useful to determine progression of atherosclerotic plaque and obstructive CAD. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and known CAD who have new onset or worsening symptoms, stress imaging (PET/SPECT MPI, CMR, or stress echocardiography) is reasonable. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
+        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and known nonobstructive CAD, CCTA can be useful to determine progression of atherosclerotic plaque and obstructive CAD. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and known CAD who have new onset or worsening symptoms, stress imaging (PET/SPECT MPI, CMR, or stress echocardiography) is reasonable. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -3461,7 +3460,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed.<br>For additional information see<a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'> Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
+        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed.<br>For additional information see<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'> Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -3493,7 +3492,8 @@ let startSlide = "start_2", //start_2
       "FFR-CT &gt;0.8 or &lt; Moderate-Severe Ischemia__1": "",
       "Abnormal Functional Test": "",
       "Normal Functional Test": "",
-      GDMT: "TRUE",
+      "Intensify GDMT": "TRUE",
+      GDMT: "",
       Discharge: "",
       "Optimize Preventive Therapies": "",
       "Continue Preventive Therapies": "",
@@ -3575,7 +3575,7 @@ let startSlide = "start_2", //start_2
       action1: "Discharge",
       action1_class: "blue",
       action2:
-        "<a href ='future-jaccLink-acute_fig10_6-figure14' target='_blank'   class='jaccLink'>Consider INOCA pathway as an outpatient for frequent or persistent symptoms",
+        "<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#fig10' target='_blank'   class='jaccLink'>Consider INOCA pathway as an outpatient for frequent or persistent symptoms",
       action2_class: "",
       question: "",
       question_class: "",
@@ -3662,7 +3662,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and coronary artery stenosis of 40% to 90% in a proximal or middle segment on CCTA, FFR-CT is reasonable for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
+        "Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and coronary artery stenosis of 40% to 90% in a proximal or middle segment on CCTA, FFR-CT is reasonable for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -3729,7 +3729,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
+        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -3796,7 +3796,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD. See ACC Clinical Policy page</a> for additional information not covered in the 2021 Chest Pain Guideline.",
+        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD. See ACC Clinical Policy page</a> for additional information not covered in the 2021 Chest Pain Guideline.",
       link_text:
         "&#34;see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.&#34; AND &#34;See ACC Clinical Policy page&#34;",
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines",
@@ -4062,9 +4062,8 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>  <br> <br> <a href ='https://www.acc.org/Guidelines' target='_blank'   class='jaccLink'> See ACC Clinical Policy page</a> for additional information not covered in the 2021 Chest Pain Guideline.",
-      link_text:
-        "&#34;see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.&#34; AND &#34;See ACC Clinical Policy page&#34;",
+        "For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>  <br> <br> <a href ='https://www.acc.org/Guidelines' target='_blank'   class='jaccLink'> See ACC Clinical Policy page</a> for additional information not covered in the 2021 Chest Pain Guideline.",
+      link_text: "",
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines",
       Acute: "TRUE",
       "Obvious Non-cardiac Cause": "",
@@ -4130,7 +4129,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
+        "For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -4263,7 +4262,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information see  <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a> <br><br> See  <a href ='https://www.acc.org/Guidelines' target='_blank'   class='jaccLink'> ACC Clinical Policy page</a> for additional information not covered in the 2021 Chest Pain Guideline.",
+        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information see  <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a> <br><br> See  <a href ='https://www.acc.org/Guidelines' target='_blank'   class='jaccLink'> ACC Clinical Policy page</a> for additional information not covered in the 2021 Chest Pain Guideline.",
       link_text:
         "&#34;see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.&#34; AND &#34;See ACC Clinical Policy page&#34;",
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines",
@@ -4331,7 +4330,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and known CAD who have new onset or worsening symptoms, stress imaging (PET/SPECT MPI, CMR, or stress echocardiography) is reasonable. <br><br>For additional information see<a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'> Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
+        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br><br>Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and known CAD who have new onset or worsening symptoms, stress imaging (PET/SPECT MPI, CMR, or stress echocardiography) is reasonable. <br><br>For additional information see<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'> Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -4398,7 +4397,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
+        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have known CAD and present with new onset or worsening symptoms, GDMT should be optimized before additional cardiac testing is performed. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -4430,7 +4429,8 @@ let startSlide = "start_2", //start_2
       "FFR-CT &gt;0.8 or &lt; Moderate-Severe Ischemia__1": "",
       "Abnormal Functional Test": "",
       "Normal Functional Test": "",
-      GDMT: "TRUE",
+      "Intensify GDMT": "TRUE",
+      GDMT: "",
       Discharge: "",
       "Optimize Preventive Therapies": "",
       "Continue Preventive Therapies": "",
@@ -4465,7 +4465,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and known CAD who have new onset or worsening symptoms, stress imaging (PET/SPECT MPI, CMR, or stress echocardiography) is reasonable. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
+        "Guideline recommendation (COR 2a): For intermediate-risk patients with acute chest pain and known CAD who have new onset or worsening symptoms, stress imaging (PET/SPECT MPI, CMR, or stress echocardiography) is reasonable. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -4532,7 +4532,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
+        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -4665,7 +4665,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a> See <a href ='https://www.acc.org/Guidelines' target='_blank'   class='jaccLink'>ACC Clinical Policy page</a>for additional information not covered in the 2021 Chest Pain Guideline.",
+        "Guideline recommendation (COR 1): For intermediate-risk patients with acute chest pain who have worsening frequency of symptoms with significant left main, proximal left anterior descending stenosis, or multivessel CAD on prior anatomic testing or history of prior coronary revascularization, ICA is recommended. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a> See <a href ='https://www.acc.org/Guidelines' target='_blank'   class='jaccLink'>ACC Clinical Policy page</a>for additional information not covered in the 2021 Chest Pain Guideline.",
       link_text:
         "&#34;see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.&#34; AND &#34;See ACC Clinical Policy page&#34;",
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines",
@@ -4733,7 +4733,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "For additional information see <a href ='future-jaccLink-Section 4.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
+        "For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec8.1.2.2' target='_blank'   class='jaccLink'>Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD.</a>",
       link_text: "see Section 4.1.2.2. Intermediate-Risk Patients With Acute Chest Pain and Known CAD",
       link_url: "[insert JACC anchor tag]",
       Acute: "TRUE",
@@ -4929,7 +4929,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with stable chest pain and no known CAD presenting to the outpatient clinic, a model to estimate pretest probability of obstructive CAD is effective to identify patients at low risk for obstructive CAD and favorable prognosis in whom additional diagnostic testing can be deferred.<br>For additional information see <a href ='future-jaccLink-section5.1' target='_blank'   class='jaccLink'>Section 5.1. Patients With No Known CAD Presenting With Stable Chest Pain.</a>",
+        "Guideline recommendation (COR 1): For patients with stable chest pain and no known CAD presenting to the outpatient clinic, a model to estimate pretest probability of obstructive CAD is effective to identify patients at low risk for obstructive CAD and favorable prognosis in whom additional diagnostic testing can be deferred.<br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1' target='_blank'   class='jaccLink'>Section 5.1. Patients With No Known CAD Presenting With Stable Chest Pain.</a>",
       link_text: "see Section 5.1. Patients With No Known CAD Presenting With Stable Chest Pain",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -4994,7 +4994,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with stable chest pain and no known CAD presenting to the outpatient clinic, a model to estimate pretest probability of obstructive CAD is effective to identify patients at low risk for obstructive CAD and favorable prognosis in whom additional diagnostic testing can be deferred. <br><br>Guideline recommendation (COR 2a): For patients with stable chest pain and no known CAD categorized as low risk, CAC testing is reasonable as a first-line test for excluding calcified plaque and identifying patients with a low likelihood of obstructive CAD. <br><br>Guideline recommendation (COR 2a): For patients with stable chest pain and no known CAD categorized as low risk, exercise testing without imaging is reasonable as a first-line test for excluding myocardial ischemia and determining functional capacity in patients with an interpretable ECG. <br><br>For additional information see <a href ='future-jaccLink-section5.1.2' target='_blank'   class='jaccLink'>5.1.2. Low-Risk Patients With Stable Chest Pain and No Known CAD.</a>",
+        "Guideline recommendation (COR 1): For patients with stable chest pain and no known CAD presenting to the outpatient clinic, a model to estimate pretest probability of obstructive CAD is effective to identify patients at low risk for obstructive CAD and favorable prognosis in whom additional diagnostic testing can be deferred. <br><br>Guideline recommendation (COR 2a): For patients with stable chest pain and no known CAD categorized as low risk, CAC testing is reasonable as a first-line test for excluding calcified plaque and identifying patients with a low likelihood of obstructive CAD. <br><br>Guideline recommendation (COR 2a): For patients with stable chest pain and no known CAD categorized as low risk, exercise testing without imaging is reasonable as a first-line test for excluding myocardial ischemia and determining functional capacity in patients with an interpretable ECG. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.2' target='_blank'   class='jaccLink'>5.1.2. Low-Risk Patients With Stable Chest Pain and No Known CAD.</a>",
       link_text: "see Section 5.1.2. Low-Risk Patients With Stable Chest Pain and No Known CAD",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -5060,7 +5060,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-high risk patients with stable chest pain and no known CAD, CCTA is effective for diagnosis of CAD, for risk stratification, and for guiding treatment decisions. <br><br>Guideline recommendation (COR 1): For intermediate-high risk patients with stable chest pain and no known CAD, stress imaging (stress echocardiography, PET/SPECT MPI or CMR) is effective for diagnosis of myocardial ischemia and for estimating risk of MACE. <br><br>Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain and no known CAD with an interpretable ECG and ability to achieve maximal levels of exercise (&ge;5 METs), exercise electrocardiography is reasonable.  <br><br>For additional information see <a href ='future-jaccLink-section5.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
+        "Guideline recommendation (COR 1): For intermediate-high risk patients with stable chest pain and no known CAD, CCTA is effective for diagnosis of CAD, for risk stratification, and for guiding treatment decisions. <br><br>Guideline recommendation (COR 1): For intermediate-high risk patients with stable chest pain and no known CAD, stress imaging (stress echocardiography, PET/SPECT MPI or CMR) is effective for diagnosis of myocardial ischemia and for estimating risk of MACE. <br><br>Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain and no known CAD with an interpretable ECG and ability to achieve maximal levels of exercise (&ge;5 METs), exercise electrocardiography is reasonable.  <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
       link_text: "see Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -5126,7 +5126,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-high risk patients with stable chest pain and no known CAD, CCTA is effective for diagnosis of CAD, for risk stratification, and for guiding treatment decisions. <br><br>For additional information see <a href ='future-jaccLink-section5.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
+        "Guideline recommendation (COR 1): For intermediate-high risk patients with stable chest pain and no known CAD, CCTA is effective for diagnosis of CAD, for risk stratification, and for guiding treatment decisions. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
       link_text: "see Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -5191,7 +5191,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain after inconclusive CCTA, stress imaging is reasonable. <br><br>For additional information see <a href ='future-jaccLink-section5.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
+        "Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain after inconclusive CCTA, stress imaging is reasonable. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
       link_text: "see Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD",
       link_url: "[insert JACC anchor tag]",
       Stable: "",
@@ -5236,7 +5236,7 @@ let startSlide = "start_2", //start_2
       objectID: "stable_Fig12_9",
       "Coming from": "stable_Fig12> N7",
       action1:
-        "Consider <a href ='future-jaccLink-INOCA_pathway' target='_blank'   class='jaccLink'>INOCA pathway </a>for frequent or persistent symptoms",
+        "Consider <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#fig14' target='_blank'   class='jaccLink'>INOCA pathway </a>for frequent or persistent symptoms",
       action1_class: "",
       action2: "",
       action2_class: "",
@@ -5322,7 +5322,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain and known coronary stenosis of 40% to 90% in a proximal or middle coronary segment on CCTA, FFR-CT can be useful for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain after inconclusive CCTA, stress imaging is reasonable. <br><br>For additional information see <a href ='future-jaccLink-section5.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
+        "Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain and known coronary stenosis of 40% to 90% in a proximal or middle coronary segment on CCTA, FFR-CT can be useful for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain after inconclusive CCTA, stress imaging is reasonable. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
       link_text: "see Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -5452,7 +5452,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain and known coronary stenosis of 40% to 90% in a proximal or middle coronary segment on CCTA, FFR-CT can be useful for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain after inconclusive CCTA, stress imaging is reasonable. <br><br>For additional information see <a href ='future-jaccLink-section5.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
+        "Guideline recommendation (COR1): For intermediate-high risk patients with stable chest pain and no known CAD, CCTA is effective for diagnosis of CAD, for risk stratification, and for guiding treatment decisions. Guideline recommendation (COR2a): For intermediate-high risk patients with stable chest pain and known coronary stenosis of 40% to 90% in a proximal or middle coronary segment on CCTA, FFR-CT can be useful for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization.<br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
       link_text: "see Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -5517,7 +5517,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "For additional information see <a href ='future-jaccLink-section5.2' target='_blank'   class='jaccLink'>Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain.</a>",
+        "Guideline recommendation (COR2a): For intermediate-high risk patients with stable chest pain and known coronary stenosis of 40% to 90% in a proximal or middle coronary segment on CCTA, FFR-CT can be useful for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
       link_text: "see Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain.",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -5582,7 +5582,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with obstructive CAD who have stable chest pain despite GDMT and moderate-severe ischemia, ICA is recommended for guiding therapeutic decision-making. <br><br>For additional information see S<a href ='future-jaccLink-section5.2.1' target='_blank'   class='jaccLink'>ection 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain. See ACC Clinical Policy page</a> for additional information not covered in the 2021 Chest Pain Guideline.",
+        "Guideline recommendation (COR2a): For intermediate-high risk patients with stable chest pain and known coronary stenosis of 40% to 90% in a proximal or middle coronary segment on CCTA, FFR-CT can be useful for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization.<br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
       link_text:
         "&#34;see Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.&#34; AND &#34;See ACC Clinical Policy page&#34;",
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines",
@@ -5711,7 +5711,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with obstructive CAD who have stable chest pain despite GDMT and moderate-severe ischemia, ICA is recommended for guiding therapeutic decision-making. <br><br>For additional information see <a href ='future-jaccLink-section5.2.1' target='_blank'   class='jaccLink'>Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain. See ACC Clinical Policy page</a> for additional information not covered in the 2021 Chest Pain Guideline.",
+        "For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
       link_text:
         "&#34;see Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.&#34; AND &#34;See ACC Clinical Policy page&#34;",
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines",
@@ -5777,7 +5777,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain and known coronary stenosis of 40% to 90% in a proximal or middle coronary segment on CCTA, FFR-CT can be useful for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain after inconclusive CCTA, stress imaging is reasonable. <br><br>For additional information see <a href ='future-jaccLink-section5.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
+        "Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain and known coronary stenosis of 40% to 90% in a proximal or middle coronary segment on CCTA, FFR-CT can be useful for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of coronary revascularization. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
       link_text: "see Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -5842,7 +5842,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "For additional information see<a href ='future-jaccLink-section5.2' target='_blank'   class='jaccLink'> Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain.</a>",
+        "For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
       link_text: "see Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -5907,7 +5907,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with obstructive CAD who have stable chest pain despite GDMT and moderate-severe ischemia, ICA is recommended for guiding therapeutic decision-making. <br><br>For additional information see <a href ='future-jaccLink-section5.2.1' target='_blank'   class='jaccLink'>Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.</a> See <a href='https://www.acc.org/Guidelines' target='_blank'   class='jaccLink'>ACC Clinical Policy page</a> for additional information not covered in the 2021 Chest Pain Guideline.",
+        "For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
       link_text:
         "&#34;see Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.&#34; AND &#34;See ACC Clinical Policy page&#34;",
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines",
@@ -5973,7 +5973,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For intermediate-high risk patients with stable chest pain and no known CAD, CCTA is effective for diagnosis of CAD, for risk stratification, and for guiding treatment decisions. <br><br>Guideline recommendation (COR 1): For intermediate-high risk patients with stable chest pain and no known CAD, stress imaging (stress echocardiography, PET/SPECT MPI or CMR) is effective for diagnosis of myocardial ischemia and for estimating risk of MACE. <br><br>Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain and no known CAD with an interpretable ECG and ability to achieve maximal levels of exercise (≥5 METs), exercise electrocardiography is reasonable.  <br><br>For additional information see <a href ='future-jaccLink-section5.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
+        "Guideline recommendation (COR 1): For intermediate-high risk patients with stable chest pain and no known CAD, stress imaging (stress echocardiography, PET/SPECT MPI or CMR) is effective for diagnosis of myocardial ischemia and for estimating risk of MACE. <br><br>Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain and no known CAD with an interpretable ECG and ability to achieve maximal levels of exercise (≥5 METs), exercise electrocardiography is reasonable.  <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
       link_text: "see Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -6038,9 +6038,8 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with obstructive CAD who have stable chest pain despite GDMT and moderate-severe ischemia, ICA is recommended for guiding therapeutic decision-making. <br><br>Guideline recommendation (COR 2a): For patients who have stable chest pain with previous coronary revascularization, CCTA is reasonable to evaluate bypass graft or stent patency (for stents &#8805;3 mm). <br><br>For additional information see <a href ='future-jaccLink-section5.2.1' target='_blank'   class='jaccLink'>Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain. See ACC Clinical Policy page for additional information not covered in the 2021 Chest Pain Guideline.",
-      link_text:
-        "&#34;see Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.&#34; AND &#34;See ACC Clinical Policy page&#34;",
+        "Guideline recommendation (COR2a): For intermediate-high risk patients with stable chest pain after an inconclusive or abnormal exercise ECG or stress imaging study, CCTA is reasonable.<br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
+      link_text: "",
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines",
       Stable: "TRUE",
       "No Known CAD": "TRUE",
@@ -6104,7 +6103,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with known nonobstructive CAD and stable chest pain, it is recommended to optimize preventive therapies. <br><br>For additional information see <a href ='future-jaccLink-section5.2' target='_blank'   class='jaccLink'>Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain.</a> <br><br>Guideline recommendation (COR 2a): For intermediate-high risk patients with stable chest pain and no known CAD undergoing stress testing, the addition of CAC testing can be useful. <br><br>For additional information see <a href ='future-jaccLink-section5.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
+        "For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
       link_text:
         "see Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain AND see Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD",
       link_url: "[insert JACC anchor tag for both sections]",
@@ -6170,7 +6169,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with known nonobstructive CAD and stable chest pain, it is recommended to optimize preventive therapies. <br><br>For additional information see<a href ='future-jaccLink-section5.2' target='_blank'   class='jaccLink'> Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain.</a>",
+        "Guideline recommendation (COR 1): For patients with known nonobstructive CAD and stable chest pain, it is recommended to optimize preventive therapies. <br><br>For additional information see<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.2' target='_blank'   class='jaccLink'> Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain.</a>",
       link_text: "see Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain.",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -6235,8 +6234,8 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with known nonobstructive CAD and stable chest pain, it is recommended to optimize preventive therapies. <br><br>For additional information see <a href ='future-jaccLink-section5.2' target='_blank'   class='jaccLink'> Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain.</a>",
-      link_text: "see Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain",
+        "<br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
+      link_text: "",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
       "No Known CAD": "TRUE",
@@ -6300,9 +6299,8 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with obstructive CAD who have stable chest pain despite GDMT and moderate-severe ischemia, ICA is recommended for guiding therapeutic decision-making. <br><br>Guideline recommendation (COR 2a): For patients who have stable chest pain with previous coronary revascularization, CCTA is reasonable to evaluate bypass graft or stent patency (for stents &#8805;3 mm). <br><br>For additional information see<a href ='future-jaccLink-section5.2.1' target='_blank'   class='jaccLink'>  Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.</a>See <a href ='https://www.acc.org/Guidelines' target='_blank'   class='jaccLink'> ACC Clinical Policy page</a> for additional information not covered in the 2021 Chest Pain Guideline.",
-      link_text:
-        "&#34;see Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.&#34; AND &#34;See ACC Clinical Policy page&#34;",
+        "Guideline recommendation (COR1): For intermediate-high risk patients with stable chest pain and no known CAD, stress imaging (stress echocardiography, PET/SPECT MPI or CMR) is effective for diagnosis of myocardial ischemia and for estimating risk of MACE<br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.1.3' target='_blank'   class='jaccLink'>Section 5.1.3. Intermediate-High Risk Patients With Stable Chest Pain and No Known CAD.</a>",
+      link_text: "",
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines",
       Stable: "TRUE",
       "No Known CAD": "TRUE",
@@ -6564,7 +6562,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with known nonobstructive CAD and stable chest pain, it is recommended to optimize preventive therapies. <br><br>For additional information see<a href ='future-jaccLink-section5.2' target='_blank'   class='jaccLink'>   Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain.</a>",
+        "Guideline recommendation (COR 1): For patients with known nonobstructive CAD and stable chest pain, it is recommended to optimize preventive therapies. <br><br>For additional information see<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.2' target='_blank'   class='jaccLink'>   Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain.</a>",
       link_text: "see Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -6617,7 +6615,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with known nonobstructive CAD and stable chest pain, it is recommended to optimize preventive therapies. <br><br>For additional information see<a href ='future-jaccLink-section5.2' target='_blank'   class='jaccLink'>  Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain.</a>",
+        "Guideline recommendation (COR 1): For patients with known nonobstructive CAD and stable chest pain, it is recommended to optimize preventive therapies. <br><br>For additional information see<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.2' target='_blank'   class='jaccLink'>  Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain.</a>",
       link_text: "see Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -6682,7 +6680,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 2a): For symptomatic patients with known nonobstructive CAD who have stable chest pain, CCTA is reasonable for determining atherosclerotic plaque burden and progression to obstructive CAD, and guiding therapeutic decision-making. <br><br>Guideline recommendation (COR 2a): For patients with known coronary stenosis from 40% to 90% on CCTA, FFR can be useful for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of ICA. <br><br>Guideline recommendation (COR 2a): For patients with known extensive nonobstructive CAD with stable chest pain symptoms, stress imaging (PET/SPECT, CMR, or echocardiography) is reasonable for the diagnosis of myocardial ischemia. <br><br>For additional information see <a href ='future-jaccLink-section5.2.2' target='_blank'   class='jaccLink'> Section 5.2.2. Patients With Known Nonobstructive CAD Presenting With Stable Chest Pain.</a>",
+        "Guideline recommendation (COR 2a): For symptomatic patients with known nonobstructive CAD who have stable chest pain, CCTA is reasonable for determining atherosclerotic plaque burden and progression to obstructive CAD, and guiding therapeutic decision-making. <br><br>Guideline recommendation (COR 2a): For patients with known coronary stenosis from 40% to 90% on CCTA, FFR can be useful for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of ICA. <br><br>Guideline recommendation (COR 2a): For patients with known extensive nonobstructive CAD with stable chest pain symptoms, stress imaging (PET/SPECT, CMR, or echocardiography) is reasonable for the diagnosis of myocardial ischemia. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.2.2' target='_blank'   class='jaccLink'> Section 5.2.2. Patients With Known Nonobstructive CAD Presenting With Stable Chest Pain.</a>",
       link_text: "see Section 5.2.2. Patients With Known Nonobstructive CAD Presenting With Stable Chest Pain",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -6713,7 +6711,7 @@ let startSlide = "start_2", //start_2
     {
       objectID: "stable_Fig13_8",
       "Coming from": "stable_Fig13_K7",
-      action1: "<a href ='future-jaccLink-INOCA_pathway' target='_blank'   class='jaccLink'>INOCA pathway</a>",
+      action1: "<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#fig14' target='_blank'   class='jaccLink'>INOCA pathway</a>",
       action1_class: "yellow",
       action2: "",
       action2_class: "",
@@ -6735,7 +6733,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 2a): For patients with persistent stable chest pain and nonobstructive CAD and at least mild myocardial ischemia on imaging, it is reasonable to consider invasive coronary function testing to improve the diagnosis of coronary microvascular dysfunction and to enhance risk stratification. <br><br>For additional information see <a href ='future-jaccLink-section5.2.3' target='_blank'   class='jaccLink'> Section 5.2.3. Patients With Suspected Ischemia and No Obstructive CAD (INOCA).</a>",
+        "Guideline recommendation (COR 2a): For patients with persistent stable chest pain and nonobstructive CAD and at least mild myocardial ischemia on imaging, it is reasonable to consider invasive coronary function testing to improve the diagnosis of coronary microvascular dysfunction and to enhance risk stratification. <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.2.3' target='_blank'   class='jaccLink'> Section 5.2.3. Patients With Suspected Ischemia and No Obstructive CAD (INOCA).</a>",
       link_text:
         'INOCA pathway": Insert JACC Anchor tag to Figure 14. Clinical Decision Pathway for INOCA. in Section 5.2.3. Patients With Suspected Ischemia and No Obstructive CAD (INOCA)',
       link_url: "[Insert JACC anchor tag]",
@@ -6789,9 +6787,8 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For symptomatic patients with obstructive CAD who have stable chest pain with CCTA-defined &#8805;50% stenosis in the left main coronary artery, obstructive CAD with FFR with CT&#8804;0.80, or severe stenosis (&#8805;70%) in all 3 main vessels, ICA is effective for guiding therapeutic decision-making. <br><br>For additional information see  <a href ='future-jaccLink-section5.2.3' target='_blank'   class='jaccLink'>Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.</a>    <br><br>See  <a href ='https://www.acc.org/Guidelines' target='_blank'   class='jaccLink'>ACC Clinical Policy page</a> for additional information not covered in the 2021 Chest Pain Guideline.",
-      link_text:
-        "&#34;see Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.&#34; AND &#34;See ACC Clinical Policy page&#34;",
+        "Guideline recommendation (COR2a): For symptomatic patients with known nonobstructive CAD who have stable chest pain, CCTA is reasonable for determining atherosclerotic plaque burden and progression to obstructive CAD, and guiding therapeutic decision-making.<br><br>Guideline recommendation (COR2a): For patients with known coronary stenosis from 40% to 90% on CCTA, FFR can be useful for diagnosis of vessel-specific ischemia and to guide decision-making regarding the use of ICA.<br><br>Guideline recommendation (COR2a): For patients with known extensive nonobstructive CAD with stable chest pain symptoms, stress imaging (PET/SPECT, CMR, or echocardiography) is reasonable for the diagnosis of myocardial ischemia. <br><br> For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.2.2' target='_blank'   class='jaccLink'>Section 5.2.2.</a> Patients With Known Nonobstructive CAD Presenting With Stable Chest Pain.",
+      link_text: "",
       link_url: "[insert JACC anchor tag} AND insert link to https://www.acc.org/Guidelines",
       Stable: "TRUE",
       "Known CAD": "TRUE",
@@ -6843,7 +6840,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "High-risk CAD means left main stenosis &#8805;50%; or obstructive CAD with FFR-CT &#8804;0.80. Guideline recommendation (COR 1): For patients with obstructive CAD and stable chest pain, it is recommended to optimize GDMT. <br><br>For additional information see<a href ='future-jaccLink-section5.2' target='_blank'   class='jaccLink'> Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain.</a>",
+        "High-risk CAD means left main stenosis &#8805;50%; or obstructive CAD with FFR-CT &#8804;0.80. Guideline recommendation (COR 1): For patients with obstructive CAD and stable chest pain, it is recommended to optimize GDMT. <br><br>For additional information see<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.2' target='_blank'   class='jaccLink'> Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain.</a>",
       link_text: "see Section 5.2. Patients With Known CAD Presenting With Stable Chest Pain",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -6896,7 +6893,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with obstructive CAD who have stable chest pain despite optimal GDMT, stress PET/SPECT MPI, CMR, or echocardiography is recommended for diagnosis of myocardial ischemia, estimating risk of MACE, and guiding therapeutic decision-making. <br><br>Guideline recommendation (COR 2a): For patients with obstructive CAD who have stable chest pain despite GDMT, exercise treadmill testing can be useful to determine if the symptoms are consistent with angina pectoris, assess the severity of symptoms, evaluate functional capacity and select management, including cardiac rehabilitation. <br><br>For additional information see Section<a href ='future-jaccLink-section5.2.1' target='_blank'   class='jaccLink'> 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.</a>",
+        "Guideline recommendation (COR 1): For patients with obstructive CAD who have stable chest pain despite optimal GDMT, stress PET/SPECT MPI, CMR, or echocardiography is recommended for diagnosis of myocardial ischemia, estimating risk of MACE, and guiding therapeutic decision-making. <br><br>Guideline recommendation (COR 2a): For patients with obstructive CAD who have stable chest pain despite GDMT, exercise treadmill testing can be useful to determine if the symptoms are consistent with angina pectoris, assess the severity of symptoms, evaluate functional capacity and select management, including cardiac rehabilitation. <br><br>For additional information see Section<a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.2.1' target='_blank'   class='jaccLink'> 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.</a>",
       link_text: "see Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -6949,9 +6946,8 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "For additional information see <a href ='https://www.jacc.org/doi/abs/10.1016/j.jacc.2012.07.013?_ga=2.2934128.1782241085.1631543559-1372334360.1532626008' target='_blank'   class='jaccLink'> the 2012 Guideline for the Diagnosis and Management of Patients with Stable Ischemic Heart Disease and <a href ='https://www.jacc.org/doi/abs/10.1016/j.jacc.2014.07.017?_ga=2.98558303.1782241085.1631543559-1372334360.1532626008' target='_blank'   class='jaccLink'> the 2014 Focused Update of the Guideline for the Diagnosis and Management of Patients with Stable Ischemic Heart Disease.</a>",
-      link_text:
-        "&#34;see the 2012 Guideline for the Diagnosis and Management of Patients with Stable Ischemic Heart Disease&#34; link: https://www.jacc.org/doi/abs/10.1016/j.jacc.2012.07.013?_ga=2.2934128.1782241085.1631543559-1372334360.1532626008  <br><br>AND <br><br>&#34; the 2014 Focused Update of the Guideline for the Diagnosis and Management of Patients with Stable Ischemic Heart Disease&#34; link: https://www.jacc.org/doi/abs/10.1016/j.jacc.2014.07.017?_ga=2.98558303.1782241085.1631543559-1372334360.1532626008",
+        "Guideline recommendation (COR1): For patients with obstructive CAD who have stable chest pain despite optimal GDMT, stress PET/SPECT MPI, CMR, or echocardiography is recommended for diagnosis of myocardial ischemia, estimating risk of MACE, and guiding therapeutic decision-making. <br><br>Guideline recommendation (COR2a): For patients with obstructive CAD who have stable chest pain despite optimal GDMT, when selected for rest/stress nuclear MPI, PET is reasonable in preference to SPECT, if available, to improve diagnostic accuracy and decrease the rate of nondiagnostic test results.<br><br>Guideline recommendation (COR2a): For patients with obstructive CAD who have stable chest pain despite GDMT, exercise treadmill testing can be useful to determine if the symptoms are consistent with angina pectoris, assess the severity of symptoms, evaluate functional capacity and select management, including cardiac rehabilitation.<br><br>Guideline recommendation (COR2a): For patients with obstructive CAD who have stable chest pain symptoms undergoing stress PETMPI or stress CMR, the addition of MBFR is useful to improve diagnosis accuracy and enhance risk stratification.<br><br><a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.2.1' target='_blank'   class='jaccLink'>Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.</a><br><br>For additional information see <a href ='https://www.jacc.org/doi/abs/10.1016/j.jacc.2012.07.013?_ga=2.2934128.1782241085.1631543559-1372334360.1532626008' target='_blank'   class='jaccLink'> the 2012 Guideline for the Diagnosis and Management of Patients with Stable Ischemic Heart Disease</a> and <a href ='https://www.jacc.org/doi/abs/10.1016/j.jacc.2014.07.017?_ga=2.98558303.1782241085.1631543559-1372334360.1532626008' target='_blank'   class='jaccLink'> the 2014 Focused Update of the Guideline for the Diagnosis and Management of Patients with Stable Ischemic Heart Disease.</a>",
+      link_text: "",
       link_url:
         "&#34;see the 2012 Guideline for the Diagnosis and Management of Patients with Stable Ischemic Heart Disease&#34; link: https://www.jacc.org/doi/abs/10.1016/j.jacc.2012.07.013?_ga=2.2934128.1782241085.1631543559-1372334360.1532626008  <br><br>AND <br><br>&#34; the 2014 Focused Update of the Guideline for the Diagnosis and Management of Patients with Stable Ischemic Heart Disease&#34; link: https://www.jacc.org/doi/abs/10.1016/j.jacc.2014.07.017?_ga=2.98558303.1782241085.1631543559-1372334360.1532626008",
       Stable: "TRUE",
@@ -7059,7 +7055,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with obstructive CAD who have stable chest pain despite optimal GDMT, those referred for ICA without prior stress testing benefit from FFR or instantaneous wave free ratio. <br><br>Guideline recommendation (COR 2a): For patients who have stable chest pain with previous coronary revascularization, CCTA is reasonable to evaluate bypass graft or stent patency (for stents &#8805;3 mm). <br><br>For additional information see <a href ='future-jaccLink-section5.2.1' target='_blank'   class='jaccLink'>Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.</a> <br><br>For additional information see <a href ='https://www.jacc.org/doi/abs/10.1016/j.jacc.2012.07.013?_ga=2.2934128.1782241085.1631543559-1372334360.1532626008' target='_blank'   class='jaccLink'> the 2012 Guideline for the Diagnosis and Management of Patients with Stable Ischemic Heart Disease and <a href ='https://www.jacc.org/doi/abs/10.1016/j.jacc.2014.07.017?_ga=2.98558303.1782241085.1631543559-1372334360.1532626008' target='_blank'   class='jaccLink'> the 2014 Focused Update of the Guideline for the Diagnosis and Management of Patients with Stable Ischemic Heart Disease.</a>",
+        "Guideline recommendation (COR 1): For patients with obstructive CAD who have stable chest pain despite optimal GDMT, those referred for ICA without prior stress testing benefit from FFR or instantaneous wave free ratio. <br><br>Guideline recommendation (COR 2a): For patients who have stable chest pain with previous coronary revascularization, CCTA is reasonable to evaluate bypass graft or stent patency (for stents &#8805;3 mm). <br><br>For additional information see <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.2.1' target='_blank'   class='jaccLink'>Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.</a> <br><br>For additional information see <a href ='https://www.jacc.org/doi/abs/10.1016/j.jacc.2012.07.013?_ga=2.2934128.1782241085.1631543559-1372334360.1532626008' target='_blank'   class='jaccLink'> the 2012 Guideline for the Diagnosis and Management of Patients with Stable Ischemic Heart Disease and <a href ='https://www.jacc.org/doi/abs/10.1016/j.jacc.2014.07.017?_ga=2.98558303.1782241085.1631543559-1372334360.1532626008' target='_blank'   class='jaccLink'> the 2014 Focused Update of the Guideline for the Diagnosis and Management of Patients with Stable Ischemic Heart Disease.</a>",
       link_text:
         "see Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.                                                 Link to both: &#34;see the 2012 Guideline for the Diagnosis and Management of Patients with Stable Ischemic Heart Disease&#34; link: https://www.jacc.org/doi/abs/10.1016/j.jacc.2012.07.013?_ga=2.2934128.1782241085.1631543559-1372334360.1532626008  <br><br>AND <br><br>&#34; the 2014 Focused Update of the Guideline for the Diagnosis and Management of Patients with Stable Ischemic Heart Disease&#34; link: https://www.jacc.org/doi/abs/10.1016/j.jacc.2014.07.017?_ga=2.98558303.1782241085.1631543559-1372334360.1532626008",
       link_url:
@@ -7279,7 +7275,7 @@ let startSlide = "start_2", //start_2
       answer6: "",
       answer6_class: "",
       notes:
-        "Guideline recommendation (COR 1): For patients with obstructive CAD who have stable chest pain despite optimal GDMT, those referred for ICA without prior stress testing benefit from FFR or instantaneous wave free ratio. <br><br>Guideline recommendation (COR 2a): For patients who have stable chest pain with previous coronary revascularization, CCTA is reasonable to evaluate bypass graft or stent patency (for stents &#8805;3 mm). <br><br>For additional information see Section <a href ='future-jaccLink-section5.2.1' target='_blank'   class='jaccLink'>5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.</a>",
+        "Guideline recommendation (COR 1): For patients with obstructive CAD who have stable chest pain despite optimal GDMT, those referred for ICA without prior stress testing benefit from FFR or instantaneous wave free ratio. <br><br>Guideline recommendation (COR 2a): For patients who have stable chest pain with previous coronary revascularization, CCTA is reasonable to evaluate bypass graft or stent patency (for stents &#8805;3 mm). <br><br>For additional information see Section <a href ='https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053#sec9.2.1' target='_blank'   class='jaccLink'>5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain.</a>",
       link_text: "see Section 5.2.1. Patients With Obstructive CAD Who Present With Stable Chest Pain",
       link_url: "[insert JACC anchor tag]",
       Stable: "TRUE",
@@ -7477,6 +7473,7 @@ let startSlide = "start_2", //start_2
     "Moderate-Severe Ischemia__2",
     "Invasive Coronary Angiography with FFR or IFR",
     "CCTA",
+    "Intensify GDMT",
     "GDMT",
     "Discharge",
     "Optimize Preventive Therapies",
