@@ -350,6 +350,9 @@ p.treeLeft:last-of-type, p.treeRight:last-of-type{
     .titleHead{
         margin: 0 5%;
     }
+    .titleHead h1{
+        font-size: 25px;
+    }
     .interactive{
         flex-flow: column-reverse wrap;
         align-items: center;
@@ -379,9 +382,6 @@ p.treeLeft:last-of-type, p.treeRight:last-of-type{
     }
     .degree{
         font-size: 12px;
-    }
-    .titleHead h1{
-        font-size: 32px;
     }
     .left .btns {
         justify-content: space-evenly;
